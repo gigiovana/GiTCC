@@ -1,0 +1,200 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: #ffffff;
+}
+
+#menu-topo ul{
+  /* Só aplica-se ao elemento ul
+  que está dentro do id menu-topo */
+  background-color: #001a33;
+  list-style-type: none;
+  box-shadow: #bbbbbb 1px 3px 5px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+
+  /*Define uma largura máxima para a lista.
+  Útil para fazer menu na vertical.*/
+  /*width: 200px;*/
+}
+
+#menu-topo ul li{
+  /*Usado para mostrar o menu em linha*/
+  display: inline;
+}
+#menu-topo ul a{
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+}
+#menu-topo ul a:hover{
+  background-color: #999999;
+}
+
+label{
+  color:black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+.login, .cadastro{
+
+    background-color: #ffffff;
+  	border: 1px solid #86592d;
+		border-radius: 10px;
+    width: 400px;
+
+    text-align: center;
+
+    /*20px para cima e para baixo*/
+    /*automático para as laterais*/
+    margin: 20px auto;
+    padding: 50px;
+		background: radial-gradient(80% 80%, #cce6ff, #fff); /*degrade*/
+		box-shadow: 4px 5px 5px #666666; /*sombras*/
+  }
+
+  /*formatar os inputs que tem a classe "campo" que estão dentro da
+  classe "login".
+  É possível utilizar vários seletores para formatar vários elementos
+  com propriedades comuns
+  */
+  .login .campo, .login .botao, .cadastro .campo, .cadastro .botao, .confirmacao .botao{
+    border: 1px solid #86592d;
+		border-radius: 4px;
+    /*"engorda" os elementos da classe campo*/
+    padding: 10px 5px;
+    width: 250px;
+  }
+
+  /*aplica essas propriedades somente no botão*/
+  .login .botao, .cadastro .botao, .confirmacao .botao{
+    background-color:#b3daff;
+    color: #000000;
+		border-radius: 6px ;
+		width: 100px;
+		border: #996633;
+		box-shadow: 4px 4px 1px #666666;
+  }
+
+	.login .botao:hover, .cadastro .botao:hover, .confirmacao .botao:hover{
+		box-shadow: 4px 4px 7px #001a33;
+	}
+
+  * {
+  box-sizing: border-box;
+}
+
+  .img, .fileira1 {
+  float: left;
+  width: 40%;
+  padding: 5px;
+}
+
+  .imagens::after, .img {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.img, .fileira2{
+float: left;
+width: 40%;
+padding: 5px;
+}
+
+.imagens::after, .img {
+content: "";
+clear: both;
+display: table;
+}
+  img, #img1, #img2 ,#img3 , #img4{
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 8px;
+  margin-left: 5px;
+  box-shadow: 2px 4px 4px #666666;
+}
+.enunciado, p{
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.texto{
+  color: black;
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  text-indent: 50px;
+  font-size: 20px;
+}
+.lembrete, h1{
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+
+}
+
+.fileira1, .fileira2, label{
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+color: black;
+text-align: center;
+font-family: "Times New Roman", Times, serif;
+font-size: 20px;
+}
+
+th, td {
+text-align: left;
+padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+background-color:#b3b3ff;
+color: black;
+}
+
+.lembrete {
+border: 2px solid #000000;
+border-radius: 8px;
+padding: 8px;
+position: static;
+width:1105px;
+margin: auto;
+margin-top: 50px;
+background: radial-gradient(80% 80%, #cce6ff, #fff); /*degrade*/
+box-shadow: 4px 5px 5px #666666;
+}
+
+.enunciado{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+ .enunciado h2{
+   border-left: 6px solid #003366;
+   background-color: lightgrey;
+}
+.confirmacao{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+#botaoProsseguir{
+  margin-top: 20px;
+  margin-left: 1110px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-size: 19px;
+}
