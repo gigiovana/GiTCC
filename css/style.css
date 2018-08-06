@@ -1,3 +1,4 @@
+/*questões, lembretes, login, cadastro*/
 *{
   margin: 0px;
   padding: 0px;
@@ -35,33 +36,33 @@ body{
   background-color: #999999;
 }
 
+
+
+/*TELA DE CADASTRO*/
 label{
   color:black;
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
 }
+
+
+/*** CADASTRO E LOGIN **/*
 .login, .cadastro{
 
     background-color: #ffffff;
   	border: 1px solid #86592d;
 		border-radius: 10px;
     width: 400px;
-
     text-align: center;
-
-    /*20px para cima e para baixo*/
-    /*automático para as laterais*/
     margin: 20px auto;
     padding: 50px;
 		background: radial-gradient(80% 80%, #cce6ff, #fff); /*degrade*/
 		box-shadow: 4px 5px 5px #666666; /*sombras*/
   }
 
-  /*formatar os inputs que tem a classe "campo" que estão dentro da
-  classe "login".
-  É possível utilizar vários seletores para formatar vários elementos
-  com propriedades comuns
-  */
+
+
+      /*** BOTAO ***/
   .login .campo, .login .botao, .cadastro .campo, .cadastro .botao, .confirmacao .botao{
     border: 1px solid #86592d;
 		border-radius: 4px;
@@ -84,13 +85,18 @@ label{
 		box-shadow: 4px 4px 7px #001a33;
 	}
 
+
+/*** Posicionar os elementos lado a lado na tela. ***/
   * {
   box-sizing: border-box;
 }
 
-  .img, .fileira1 {
+
+
+/* TELA QUESTÃO UM*/
+  .img .fileira1, .img .fileira2 {
   float: left;
-  width: 40%;
+  width: 20%;
   padding: 5px;
 }
 
@@ -100,30 +106,77 @@ label{
   display: table;
 }
 
-.img, .fileira2{
-float: left;
-width: 40%;
-padding: 5px;
+.imagens::after, .img {
+  content: "";
+  clear: both;
+  display: table;
 }
 
-.imagens::after, .img {
-content: "";
-clear: both;
-display: table;
+ .fileira1, .fileira2{
+  float: left;
+  text-align: center;
+  border: solid 1px #ededed;
+  margin-right: 5px;
+  margin-top: 10px;
 }
-  img, #img1, #img2 ,#img3 , #img4{
-  border: 1px solid #000000;
-  border-radius: 8px;
-  padding: 8px;
-  margin-left: 5px;
-  box-shadow: 2px 4px 4px #666666;
+.enunciado, .questao {
+  float: left;
+  margin-right: 5px;
+  margin-left: 50px;
 }
+
+.fileira2{
+  margin-top: 5px;
+}
+
+.limparfloat{
+  clear: left;
+}
+
 .enunciado, p{
   color: black;
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
+  margin-top: 20px;
 }
 
+.fileira1, .fileira2{
+  float: left;
+  text-align: center;
+  /*border: solid 1px #ededed;*/
+  margin-right: 5px;
+}
+
+.limparfloat{
+  clear: left;
+}
+
+.fileira1, .fileira2, label{
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.enunciado{
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+ .enunciado h2{
+   border-left: 3px solid #003366;
+   background-color: lightgrey;
+   
+}
+
+.confirmacao{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+/*** TELA LEMBRETE ***/
 .texto{
   color: black;
   text-align: justify;
@@ -135,12 +188,6 @@ display: table;
   color: black;
   font-family: "Times New Roman", Times, serif;
 
-}
-
-.fileira1, .fileira2, label{
-  color: black;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
 }
 
 table {
@@ -176,21 +223,6 @@ background: radial-gradient(80% 80%, #cce6ff, #fff); /*degrade*/
 box-shadow: 4px 5px 5px #666666;
 }
 
-.enunciado{
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
- .enunciado h2{
-   border-left: 6px solid #003366;
-   background-color: lightgrey;
-}
-.confirmacao{
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
 #botaoProsseguir{
   margin-top: 20px;
   margin-left: 1110px;
