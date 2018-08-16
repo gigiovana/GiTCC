@@ -65,17 +65,27 @@ label{
 
 
       /*** BOTAO ***/
-  .login .campo, .login .botao, .cadastro .campo, .cadastro .botao, .confirmacao .botao{
+  .login .campo, .cadastro .campo{
     border: 1px solid #86592d;
 		border-radius: 4px;
     /*"engorda" os elementos da classe campo*/
     padding: 13px 5px;
-    width: 100px;
+    width: 300px;
     font-size: 20px;
   }
 
+ .cadastro .botao, .confirmacao .botao, .botaoInicio .botao, .login .botao{
+  border: 1px solid #86592d;
+  border-radius: 4px;
+   /*"engorda" os elementos da classe campo*/
+   padding: 13px 5px;
+   width: 100px;
+   font-size: 20px;
+ }
+
+
   /*aplica essas propriedades somente no botão*/
-  .login .botao, .cadastro .botao, .confirmacao .botao{
+  .login .botao, .cadastro .botao, .confirmacao .botao, .botaoInicio .botao {
     background-color:#b3daff;
     color: #000000;
 		border-radius: 6px;
@@ -83,7 +93,7 @@ label{
 		box-shadow: 4px 4px 1px #666666;
   }
 
-	.login .botao:hover, .cadastro .botao:hover, .confirmacao .botao:hover{
+	.login .botao:hover, .cadastro .botao:hover, .confirmacao .botao:hover, .botaoInicio .botao:hover{
 		box-shadow: 4px 4px 7px #001a33;
 	}
 
@@ -92,6 +102,56 @@ label{
   * {
   box-sizing: border-box;
 }
+
+
+
+/**** TELA DE INÍCIO ****/
+.botaoInicio .botao, .botaoComo .botao{
+  border: 1px solid #86592d;
+  border-radius: 4px;
+  /*"engorda" os elementos da classe campo*/
+  padding: 13px 5px;
+  width: 200px;
+  font-size: 25px;
+}
+.botaoInicio{
+  margin-top: 50px;
+}
+
+.botaoInicio .botao, .botaoComo .botao {
+  background-color:#b3daff;
+  color: #000000;
+  border-radius: 6px;
+  border: #996633;
+  box-shadow: 4px 4px 1px #666666;
+}
+
+.botaoInicio .botao:hover, .botaoComo .botao:hover{
+  box-shadow: 4px 4px 7px #001a33;
+}
+
+.botaoComo{
+  margin-top: 10px;
+}
+
+.inicio{
+  margin: 0 600px;
+  margin-top: 100px;
+  width: 100px;
+}
+
+.para .texto1{
+  color: black;
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  text-indent: 50px;
+  font-size: 25px;
+}
+
+
+
+
+
 
 
 
@@ -156,18 +216,18 @@ label{
   margin-left: 5px;
   margin-right: 5px;*/
 }
- .conteudo .enunciado h2{
+ .corpo .enunciado h2{
    border-left: 3px solid #003366;
    background-color: lightgrey;
    margin: 5px 0;
 }
 
-.conteudo .confirmacao{
+.corpo .confirmacao{
   margin: 10px 0;
   margin-left: 420px;
 }
 
-.conteudo{
+.corpo{
   margin: 0 auto;
   width: 550px;
 }
@@ -184,9 +244,9 @@ label{
   text-align: justify;
   font-family: "Times New Roman", Times, serif;
   text-indent: 50px;
-  font-size: 20px;
+  font-size: 25px;
 }
-.lembrete, h1{
+.conteudo, h1{
   color: black;
   font-family: "Times New Roman", Times, serif;
 
@@ -198,7 +258,7 @@ width: 100%;
 color: black;
 text-align: center;
 font-family: "Times New Roman", Times, serif;
-font-size: 20px;
+font-size: 25px;
 }
 
 th, td {
@@ -213,7 +273,7 @@ background-color:#b3b3ff;
 color: black;
 }
 
-.lembrete {
+.conteudo, .para{
 border: 2px solid #000000;
 border-radius: 8px;
 padding: 8px;
@@ -231,4 +291,58 @@ box-shadow: 4px 5px 5px #666666;
   margin-right: 20px;
   margin-bottom: 20px;
   font-size: 19px;
+}
+
+
+
+/**** QUESTAO DOIS ****/
+.corpoq2 .enunciadoq2 h2{
+  border-left: 3px solid #003366;
+  background-color: lightgrey;
+  margin: 5px 0;
+}
+
+.corpoq2{
+  margin: 0 auto;
+  width: 850px;
+}
+.montante{
+  width: 810px;
+  height: 300px;
+  border: 2px solid #000000;
+  position: relative;
+  margin: 0px 10px 10px 0px ;
+  border-radius: 6px;
+  background: radial-gradient(80% 80%, #cce6ff, #fff); /*degrade*/
+  box-shadow: 4px 5px 5px #666666;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.montante, span{
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+.containerAdjetivos, .containerVerbos{
+    width: 400px;
+    height: 500px;
+    border: 2px solid #000000;
+    position: relative;
+    margin: 0px 10px 10px 0px ;
+    border-radius: 6px;
+    background: radial-gradient(80% 80%, #cce6ff, #fff); /*degrade*/
+    box-shadow: 4px 5px 5px #666666;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+#nomeVerbos, #nomeAdjetivos{
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+.limpaarfloat{
+  clear:right;
 }
