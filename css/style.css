@@ -10,7 +10,7 @@ body{
 #menu-topo ul{
   /* Só aplica-se ao elemento ul
   que está dentro do id menu-topo */
-  background-color: #001a33;
+  background-color: #004d00;
   list-style-type: none;
   box-shadow: #bbbbbb 1px 3px 5px;
   text-align: center;
@@ -52,13 +52,13 @@ label{
 .login, .cadastro{
 
     background-color: #ffffff;
-  	border: 1px solid #86592d;
+  	border: 1px solid #000000;
 		border-radius: 10px;
     width: 400px;
     text-align: center;
     margin: 20px auto;
     padding: 50px;
-		background: radial-gradient(80% 80%, #cce6ff, #fff); /*degrade*/
+		background: radial-gradient(80% 80%, #ccffcc, #fff); /*degrade*/
 		box-shadow: 4px 5px 5px #666666; /*sombras*/
   }
 
@@ -66,7 +66,7 @@ label{
 
       /*** BOTAO ***/
   .login .campo, .cadastro .campo{
-    border: 1px solid #86592d;
+    border: 1px solid #000000;
 		border-radius: 4px;
     /*"engorda" os elementos da classe campo*/
     padding: 13px 5px;
@@ -86,7 +86,7 @@ label{
 
   /*aplica essas propriedades somente no botão*/
   .login .botao, .cadastro .botao, .confirmacao .botao, .botaoInicio .botao {
-    background-color:#b3daff;
+    background-color:#b3ffb3;
     color: #000000;
 		border-radius: 6px;
 		border: #996633;
@@ -94,7 +94,7 @@ label{
   }
 
 	.login .botao:hover, .cadastro .botao:hover, .confirmacao .botao:hover, .botaoInicio .botao:hover{
-		box-shadow: 4px 4px 7px #001a33;
+		box-shadow: 4px 4px 7px #001a00;
 	}
 
 
@@ -217,7 +217,7 @@ label{
   margin-right: 5px;*/
 }
  .corpo .enunciado h2{
-   border-left: 3px solid #003366;
+   border-left: 3px solid #004d00;
    background-color: lightgrey;
    margin: 5px 0;
 }
@@ -297,7 +297,7 @@ box-shadow: 4px 5px 5px #666666;
 
 /**** QUESTAO DOIS ****/
 .corpoq2 .enunciadoq2 h2{
-  border-left: 3px solid #003366;
+  border-left: 3px solid #004d00;
   background-color: lightgrey;
   margin: 5px 0;
 }
@@ -313,7 +313,7 @@ box-shadow: 4px 5px 5px #666666;
   position: relative;
   margin: 0px 10px 10px 0px ;
   border-radius: 6px;
-  background: radial-gradient(80% 80%, #cce6ff, #fff); /*degrade*/
+  background: radial-gradient(80% 80%, #ccffcc, #fff); /*degrade*/
   box-shadow: 4px 5px 5px #666666;
   background-attachment: fixed;
   background-size: 100%;
@@ -331,7 +331,7 @@ box-shadow: 4px 5px 5px #666666;
     position: relative;
     margin: 0px 10px 10px 0px ;
     border-radius: 6px;
-    background: radial-gradient(80% 80%, #cce6ff, #fff); /*degrade*/
+    background: radial-gradient(80% 80%, #ccffcc, #fff); /*degrade*/
     box-shadow: 4px 5px 5px #666666;
     background-attachment: fixed;
     background-size: 100%;
