@@ -58,7 +58,7 @@ label{
     text-align: center;
     margin: 20px auto;
     padding: 50px;
-		background: radial-gradient(80% 80%, #ccffcc, #fff); /*degrade*/
+		background: radial-gradient(80% 80%, #b0ffb0, #fff); /*degrade*/
 		box-shadow: 4px 5px 5px #666666; /*sombras*/
   }
 
@@ -86,7 +86,7 @@ label{
 
   /*aplica essas propriedades somente no botão*/
   .login .botao, .cadastro .botao, .confirmacao .botao, .botaoInicio .botao {
-    background-color:#b3ffb3;
+    background-color:#82ff82;
     color: #000000;
 		border-radius: 6px;
 		border: #996633;
@@ -269,7 +269,7 @@ padding: 8px;
 tr:nth-child(even){background-color: #f2f2f2}
 
 th {
-background-color:#b3b3ff;
+background-color:#82ff82;
 color: black;
 }
 
@@ -281,7 +281,7 @@ position: static;
 width:1105px;
 margin: auto;
 margin-top: 50px;
-background: radial-gradient(80% 80%, #cce6ff, #fff); /*degrade*/
+background: radial-gradient(80% 80%, #b0ffb0, #fff); /*degrade*/
 box-shadow: 4px 5px 5px #666666;
 }
 
@@ -313,7 +313,7 @@ box-shadow: 4px 5px 5px #666666;
   position: relative;
   margin: 0px 10px 10px 0px ;
   border-radius: 6px;
-  background: radial-gradient(80% 80%, #ccffcc, #fff); /*degrade*/
+  background: radial-gradient(80% 80%, #b0ffb0, #fff); /*degrade*/
   box-shadow: 4px 5px 5px #666666;
   background-attachment: fixed;
   background-size: 100%;
@@ -331,7 +331,7 @@ box-shadow: 4px 5px 5px #666666;
     position: relative;
     margin: 0px 10px 10px 0px ;
     border-radius: 6px;
-    background: radial-gradient(80% 80%, #ccffcc, #fff); /*degrade*/
+    background: radial-gradient(80% 80%, #b0ffb0, #fff); /*degrade*/
     box-shadow: 4px 5px 5px #666666;
     background-attachment: fixed;
     background-size: 100%;
@@ -378,7 +378,7 @@ box-shadow: 4px 5px 5px #666666;
       position: relative;
       margin: 0px 10px 10px 0px
       border-radius: 6px;
-      background: radial-gradient(80% 80%, #ccffcc, #fff); /*degrade*/
+      background: radial-gradient(80% 80%, #b0ffb0, #fff); /*degrade*/
       box-shadow: 4px 5px 5px #666666;
       background-attachment: fixed;
       background-size: 100%;
