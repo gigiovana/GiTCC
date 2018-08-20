@@ -356,3 +356,42 @@ box-shadow: 4px 5px 5px #666666;
 .limpaarfloat{
   clear:right;
 }
+
+/* TELA QUESTÃO QUATRO*/
+
+  .corpoq4 .enunciadoq4 h2{
+    border-left: 3px solid #004d00;
+    background-color: lightgrey;
+    margin: 5px 0;
+  }
+
+  .corpoq4{
+    margin: 0 auto;
+    width: 850px;
+  }
+
+
+  .containerPalavras{
+      width: 810px;
+      height: 300px;
+      border: 2px solid #000000;
+      position: relative;
+      margin: 0px 10px 10px 0px
+      border-radius: 6px;
+      background: radial-gradient(80% 80%, #ccffcc, #fff); /*degrade*/
+      box-shadow: 4px 5px 5px #666666;
+      background-attachment: fixed;
+      background-size: 100%;
+      background-repeat: no-repeat;
+
+  }
+  #nomePalavras, span{
+    color: black;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+  }
+  .limpaarfloat{
+    clear:right;
+/* Drag and Drop */
+}
