@@ -343,6 +343,16 @@ box-shadow: 4px 5px 5px #666666;
   font-family: "Times New Roman", Times, serif;
   font-size: 30px;
 }
+
+
+/*.montante, .containerVerbos {
+    float: left;
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}*/
 .limpaarfloat{
   clear:right;
 }
