@@ -9,6 +9,21 @@
       background: #ffffff;
     }
     </style>
+    <script>
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+
+        function drag(ev) {
+            ev.dataTransfer.setData("text", ev.target.id);
+        }
+
+        function drop(ev) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("text");
+            ev.target.appendChild(document.getElementById(data));
+        }
+    </script>
   </head>
 
 
@@ -32,30 +47,48 @@
     <p>Ordene as frases, colocando na ordem: o elemento que realiza a ação, em seguida, o verbo e depois seu complemento.</p>
     </div>
 
-  <div class="containerPalavras">
+  <div class="perguntasq4" ondrop="drop(event)" ondragover="allowDrop(event)">
 
-  <div class="containerPalavras">
-    <span>A bola</span>
-    <span>Jogou</span>
-    <span>O menino</span>
+  <div class="f1">
+    <span draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31" >A bola</span>
+    <span draggable="true" ondragstart="drag(event)" id="drag2" width="88" height="31" >Jogou</span>
+    <span draggable="true" ondragstart="drag(event)" id="drag3" width="88" height="31" >O menino</span>
   </div>
 
+      <div class="limparfloat"></div>
+        
 
+      <div class="r1" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
+      <div class="r1" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
+      <div class="r1" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
 
-  <div class="containerPalavras">
-    <span>Os meninos</span>
-    <span>Seus tênis</span>
-    <span>Venderam</span>
+      <div class="limparfloat"></div>
+
+  <div class="f2">
+    <span draggable="true" ondragstart="drag(event)" id="drag4" width="88" height="31" >Os meninos</span>
+    <span draggable="true" ondragstart="drag(event)" id="drag5" width="88" height="31" >Seus tênis</span>
+    <span draggable="true" ondragstart="drag(event)" id="drag6" width="88" height="31" >Venderam</span>
   </div>
 
+      <div class="limparfloat"></div>
 
-    <div class="limparfloat"></div>
+      <div class="r1" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
+      <div class="r1" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
+      <div class="r1" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
 
-    <div class="containerPalavras">
-      <span>Gostamos</span>
-      <span>Eu e minha família</span>
-      <span>De lasanha</span>
+      <div class="limparfloat"></div>
+
+    <div class="f3">
+      <span draggable="true" ondragstart="drag(event)" id="drag7" width="88" height="31" >Gostamos</span>
+      <span draggable="true" ondragstart="drag(event)" id="drag8" width="88" height="31" >Eu e minha família</span>
+      <span draggable="true" ondragstart="drag(event)" id="drag9" width="88" height="31" >De lasanha</span>
     </div>
+
+      <div class="limparfloat"></div>
+
+      <div class="r1" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
+      <div class="r1" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
+      <div class="r1" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
 
     </div>
 
