@@ -29,7 +29,7 @@
 
     <div class="enunciadoq3">
     <h2>Questão 3:</h2>
-    <p>Conjugue o verbo <span style="background-color: #ffff00">jogar:</span></p>
+    <p>Conjugue o verboo <span style="background-color: #ffff00">jogar:</span></p>
     </div>
 
       <div class="frases">
