@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Questão 4</title>
     <link rel="stylesheet" type= "text/css" href="css/style.css"/>
+     <script src= "jquery/jquery-3.3.1.min.js"></script>
     <style media="screen">
     body{
       background: #ffffff;
@@ -21,7 +22,13 @@
         function drop(ev) {
             ev.preventDefault();
             var data = ev.dataTransfer.getData("text");
+
+            // Verificar se tem algo dentro do "ev.target"
+            // if(ev.target.textContent != "")
+
             ev.target.appendChild(document.getElementById(data));
+
+            document.getElementById(data).style.border = "none";
         }
     </script>
   </head>
@@ -45,20 +52,24 @@
 
   <div class="perguntasq4" ondrop="drop(event)" ondragover="allowDrop(event)">
 
+<div id="q1">
+
   <div class="f1">
     <span draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31" >A bola</span>
     <span draggable="true" ondragstart="drag(event)" id="drag2" width="88" height="31" >Jogou</span>
     <span draggable="true" ondragstart="drag(event)" id="drag3" width="88" height="31" >O menino</span>
+    <div class="limparfloat"></div>
   </div>
 
-      <div class="limparfloat"></div>
+      <div class="resp1">
+        <div class="r1" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
+        <div class="r1" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
+        <div class="r1" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
+        <div class="limparfloat"></div>
+      </div>
 
+    </div>
 
-      <div class="r1" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
-      <div class="r1" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
-      <div class="r1" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
-
-      <div class="limparfloat"></div>
 
   <div class="f2">
     <span draggable="true" ondragstart="drag(event)" id="drag4" width="88" height="31" >Os meninos</span>
@@ -88,10 +99,11 @@
 
     </div>
 
+
       <div class="limparfloat"></div>
 
     <div class="confirmacao">
-      <input id="botaoEnviar" type="button" value="Enviar" class="botao">
+      <input id="botaoEnviar" type="button" value="Enviar" class="botaoq4">
     </div>
 
   </div>
