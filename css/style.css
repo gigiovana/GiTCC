@@ -74,7 +74,7 @@ label{
     font-size: 20px;
   }
 
- .cadastro .botao, .confirmacao .botao, .botaoInicio .botao, .login .botao, .confirmacao .botaoq2{
+ .cadastro .botao, .confirmacao .botao, .botaoInicio .botao, .login .botao, .confirmacao .botaoq2, .confirmacao .botaoq4 {
   border: 1px solid #86592d;
   border-radius: 4px;
    /*"engorda" os elementos da classe campo*/
@@ -85,7 +85,7 @@ label{
 
 
   /*aplica essas propriedades somente no botão*/
-  .login .botao, .cadastro .botao, .confirmacao .botao, .botaoInicio .botao, .confirmacao .botaoq2 {
+  .login .botao, .cadastro .botao, .confirmacao .botao, .botaoInicio .botao, .confirmacao .botaoq2, .confirmacao .botaoq4 {
     background-color:#82ff82;
     color: #000000;
 		border-radius: 6px;
@@ -93,7 +93,7 @@ label{
 		box-shadow: 4px 4px 1px #666666;
   }
 
-	.login .botao:hover, .cadastro .botao:hover, .confirmacao .botao:hover, .botaoInicio .botao:hover, .confirmacao .botaoq2:hover{
+	.login .botao:hover, .cadastro .botao:hover, .confirmacao .botao:hover, .botaoInicio .botao:hover, .confirmacao .botaoq2:hover, .confirmacao .botaoq4:hover{
 		box-shadow: 4px 4px 7px #001a00;
 	}
 
@@ -382,6 +382,10 @@ box-shadow: 4px 5px 5px #666666;
 margin: 10px 700px;
 }
 
+.confirmacao .botaoq4{
+  margin: 10px 700px;
+}
+
 /** TELA QUESTAO TRES **/
 .corpoq3 .enunciadoq3 h2{
   border-left: 3px solid #004d00;
@@ -433,6 +437,16 @@ margin: 10px 700px;
   height: 800px;
   padding: 10px;
   border: 1px solid #aaaaaa;
+  }
+
+  .f1, .f2, .f3{
+    height: 100px;
+  /*  border: 2px solid #000000;
+    border-radius: 6px;
+    background: radial-gradient(80% 80%, #bfffbf, #fff);
+    box-shadow: 4px 5px 5px #666666;
+    background-size: 100%;
+    float: left;*/
   }
 
 .perguntasq4 span{
