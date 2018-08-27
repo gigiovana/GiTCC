@@ -85,7 +85,7 @@ label{
 
 
   /*aplica essas propriedades somente no botão*/
-  .login .botao, .cadastro .botao, .confirmacao .botao, .botaoInicio .botao, .confirmacao .botaoq2 {
+  .login .botao, .cadastro .botao, .confirmacao .botao, .botaoInicio .botao, .confirmacao .botaoq2{
     background-color:#82ff82;
     color: #000000;
 		border-radius: 6px;
@@ -93,7 +93,7 @@ label{
 		box-shadow: 4px 4px 1px #666666;
   }
 
-	.login .botao:hover, .cadastro .botao:hover, .confirmacao .botao:hover, .botaoInicio .botao:hover, .confirmacao .botaoq2:hover{
+	.login .botao:hover, .cadastro .botao:hover, .confirmacao .botao:hover, .botaoInicio .botao:hover, .confirmacao .botaoq2:hover, .q3 .botaoq3{
 		box-shadow: 4px 4px 7px #001a00;
 	}
 
@@ -391,11 +391,39 @@ margin: 10px 700px;
 
 .corpoq3{
   margin: 0 auto;
-  width: 850px;
+  width: 700px;
 }
 
+.frases{
+  border-radius:4px;
+  border: 1px solid #666666;
+  box-shadow: 4px 4px 1px #cccccc;
+  font-family: "Times New Roman", Times, serif;
+  background: radial-gradient(80% 80%, #bfffbf, #fff); /*degrade*/
+  box-shadow: 4px 5px 5px #666666;
 
+}
 
+.botaoq3{
+  border: 1px solid #86592d;
+  border-radius: 4px;
+  padding: 13px 5px;
+  width: 100px;
+  font-size: 20px;
+  background-color:#82ff82;
+  color: #000000;
+  border-radius: 6px;
+  border: #996633;
+  box-shadow: 4px 4px 1px #666666;
+}
+
+.botaoq3:hover{
+  		box-shadow: 4px 4px 7px #001a00;
+}
+.botaoq3{
+  margin-left: 600px;
+
+}
 
 
 

@@ -23,7 +23,6 @@
     </div>
 
 
-      /**strpos()**/
 
     <div class="corpoq3">
 
@@ -33,36 +32,35 @@
     </div>
 
       <div class="frases">
+        <br>
         <form class="" action="" method="post">
             <label for="">A) João <input id="campoL" type="text" name="respotaA" value=""
             class="campo" placeholder="Sua reposta"> volei de areia</label>
         </form>
         <br>
-
+        <br>
         <form class="" action="" method="post">
             <label for="">B) Maria e João <input id="campoL" type="text" name="respotaA" value=""
             class="campo" placeholder="Sua reposta"> volei de areia</label>
         </form>
         <br>
-
+        <br>
         <form class="" action="" method="post">
             <label for="">C) Eu <input id="campoL" type="text" name="respotaA" value=""
             class="campo" placeholder="Sua reposta"> volei de areia</label>
         </form>
         <br>
-
+        <br>
         <form class="" action="" method="post">
             <label for="">D) Eu, Maria e João <input id="campoL" type="text" name="respotaA" value=""
             class="campo" placeholder="Sua reposta"> volei de areia</label>
         </form>
-
-
-        <input type="submit" name="" value="Entrar" class="botaoQ3"><br> <br>
-
-
-
+        <br>
       </div>
 
+  <div class="enviarq3">
+
+  </div>  <input type="submit" name="" value="Entrar" class="botaoq3"><br> <br>
 
     </div>
 
