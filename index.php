@@ -29,11 +29,13 @@
 
       <div class="inicio">
         <div class="botaoInicio">
-          <input id="botaoInicio" type="button" value="JOGAR" class="botao">
+          <input id="btnJogar" type="button" value="JOGAR" class="botao" >
+          <!-- <a href="lb1" id="btnJogar" class="botao">JOGAR</a> -->
         </div>
 
         <div class="botaoComo">
-          <input id="botaoComo" type="button" value="COMO JOGAR" class="botao">
+          <!-- <a href="#" id="btnComo" class="botao">COMO JOGAR</a> -->
+          <input id="btnComo" type="button" value="COMO JOGAR" class="botao">
         </div>
 
       </div>

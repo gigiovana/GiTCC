@@ -36,7 +36,7 @@
             <label for="lembrar"><b>Lembrar minha senha</b></label>
             <br>
 
-            <input type="submit" name="" value="Entrar" class="botao"><br> <br>
+            <input id="btnLogin" value="Entrar" class="botao"><br> <br>
 
             <a href="#">Esqueceu a senha?</a> <br>
             <a href="cadastro.html">Cadastre-se</a>

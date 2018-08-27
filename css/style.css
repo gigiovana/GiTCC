@@ -48,9 +48,8 @@ label{
 }
 
 
-/*** CADASTRO E LOGIN **/*
+/*** CADASTRO E LOGIN **/
 .login, .cadastro{
-
     background-color: #ffffff;
   	border: 1px solid #000000;
 		border-radius: 10px;
@@ -62,46 +61,30 @@ label{
 		box-shadow: 4px 5px 5px #666666; /*sombras*/
   }
 
-
-
       /*** BOTAO ***/
   .login .campo, .cadastro .campo{
     border: 1px solid #000000;
 		border-radius: 4px;
-    /*"engorda" os elementos da classe campo*/
     padding: 13px 5px;
-    width: 300px;
+    width: 270px;
     font-size: 20px;
   }
 
- .cadastro .botao, .confirmacao .botao, .botaoInicio .botao, .login .botao, .confirmacao .botaoq2, .confirmacao .botaoq4 {
+ .botao{
   border: 1px solid #86592d;
   border-radius: 4px;
-   /*"engorda" os elementos da classe campo*/
-   padding: 13px 5px;
-   width: 100px;
-   font-size: 20px;
+  padding: 13px 5px;
+  width: 100px;
+  font-size: 20px;
+  background-color:#82ff82;
+  color: #000000;
+  border-radius: 6px;
+  border: #996633;
+  box-shadow: 4px 4px 1px #666666;
  }
 
 
-  /*aplica essas propriedades somente no botão*/
-<<<<<<< HEAD
-  .login .botao, .cadastro .botao, .confirmacao .botao, .botaoInicio .botao, .confirmacao .botaoq2{
-=======
-  .login .botao, .cadastro .botao, .confirmacao .botao, .botaoInicio .botao, .confirmacao .botaoq2, .confirmacao .botaoq4 {
->>>>>>> 8962a06f20b24aa0e20260db707afa9476c92ceb
-    background-color:#82ff82;
-    color: #000000;
-		border-radius: 6px;
-		border: #996633;
-		box-shadow: 4px 4px 1px #666666;
-  }
-
-<<<<<<< HEAD
-	.login .botao:hover, .cadastro .botao:hover, .confirmacao .botao:hover, .botaoInicio .botao:hover, .confirmacao .botaoq2:hover, .q3 .botaoq3{
-=======
-	.login .botao:hover, .cadastro .botao:hover, .confirmacao .botao:hover, .botaoInicio .botao:hover, .confirmacao .botaoq2:hover, .confirmacao .botaoq4:hover{
->>>>>>> 8962a06f20b24aa0e20260db707afa9476c92ceb
+.botao:hover{
 		box-shadow: 4px 4px 7px #001a00;
 	}
 
@@ -113,32 +96,21 @@ label{
 
 
 
-/**** TELA DE INÍCIO ****/
-.botaoInicio .botao, .botaoComo .botao{
-  border: 1px solid #86592d;
-  border-radius: 4px;
-  /*"engorda" os elementos da classe campo*/
-  padding: 13px 5px;
+/*** TELA DE INÍCIO****/
+#btnComo, #btnJogar{
   width: 200px;
   font-size: 25px;
 }
-.botaoInicio{
+
+#btnJogar{
   margin-top: 50px;
 }
 
-.botaoInicio .botao, .botaoComo .botao {
-  background-color:#b3daff;
-  color: #000000;
-  border-radius: 6px;
-  border: #996633;
-  box-shadow: 4px 4px 1px #666666;
-}
-
-.botaoInicio .botao:hover, .botaoComo .botao:hover{
+#btnComo .botao:hover, #btnJogar .botao:hover{
   box-shadow: 4px 4px 7px #001a33;
 }
 
-.botaoComo{
+#btnComo{
   margin-top: 10px;
 }
 
@@ -155,6 +127,7 @@ label{
   text-indent: 50px;
   font-size: 25px;
 }
+
 
 
 
@@ -254,52 +227,55 @@ label{
   text-indent: 50px;
   font-size: 25px;
 }
+
 .conteudo, h1{
   color: black;
   font-family: "Times New Roman", Times, serif;
-
 }
 
 table {
-border-collapse: collapse;
-width: 100%;
-color: black;
-text-align: center;
-font-family: "Times New Roman", Times, serif;
-font-size: 25px;
+  border-collapse: collapse;
+  width: 100%;
+  color: black;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
 }
 
 th, td {
-text-align: left;
-padding: 8px;
+  text-align: left;
+  padding: 8px;
 }
 
 tr:nth-child(even){background-color: #f2f2f2}
 
 th {
-background-color:#82ff82;
-color: black;
+  background-color:#82ff82;
+  color: black;
 }
 
 .conteudo, .para{
-border: 2px solid #000000;
-border-radius: 8px;
-padding: 8px;
-position: static;
-width:1105px;
-margin: auto;
-margin-top: 50px;
-background: radial-gradient(80% 80%, #b0ffb0, #fff); /*degrade*/
-box-shadow: 4px 5px 5px #666666;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 8px;
+  position: static;
+  width:1105px;
+  margin: auto;
+  margin-top: 50px;
+  background: radial-gradient(80% 80%, #b0ffb0, #fff); /*degrade*/
+  box-shadow: 4px 5px 5px #666666;
 }
 
-#botaoProsseguir{
+#btnLb1{
   margin-top: 20px;
   margin-left: 1110px;
   margin-right: 20px;
   margin-bottom: 20px;
   font-size: 19px;
 }
+
+
+
 
 
 
@@ -386,13 +362,14 @@ box-shadow: 4px 5px 5px #666666;
   box-shadow: 4px 4px 1px #666666;
 }*/
 
-.confirmacao .botaoq2{
+
+#btnQ2{
 margin: 10px 700px;
 }
 
-.confirmacao .botaoq4{
-  margin: 10px 700px;
-}
+
+
+
 
 /** TELA QUESTAO TRES **/
 .corpoq3 .enunciadoq3 h2{
@@ -403,39 +380,33 @@ margin: 10px 700px;
 
 .corpoq3{
   margin: 0 auto;
-  width: 700px;
+  width: 800px;
 }
 
-.frases{
-  border-radius:4px;
-  border: 1px solid #666666;
-  box-shadow: 4px 4px 1px #cccccc;
+.altq3 .f1 label, .altq3 .f2 label, .altq3 .f3 label, .altq3 .f4 label{
   font-family: "Times New Roman", Times, serif;
-  background: radial-gradient(80% 80%, #bfffbf, #fff); /*degrade*/
-  box-shadow: 4px 5px 5px #666666;
-
+  text-align: justify;
+  font-size: 30px;
+  text-indent: 50px;
+  color: black;
 }
 
-.botaoq3{
-  border: 1px solid #86592d;
-  border-radius: 4px;
-  padding: 13px 5px;
-  width: 100px;
-  font-size: 20px;
-  background-color:#82ff82;
-  color: #000000;
-  border-radius: 6px;
-  border: #996633;
-  box-shadow: 4px 4px 1px #666666;
+.altq3{
+  border: 1px solid #cccccc;
+  width: 800px;
+  height: 400px;
 }
 
-.botaoq3:hover{
-  		box-shadow: 4px 4px 7px #001a00;
+#btnQ3{
+  margin-left: 700px;
+  margin-top: 10px;
 }
-.botaoq3{
-  margin-left: 600px;
+.campof1, .campof2, .campof3, .campof4{
+  width: 150px;
+  height: 35px;
+}
 
-}
+
 
 
 

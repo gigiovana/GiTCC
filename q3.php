@@ -11,55 +11,45 @@
     </style>
   </head>
   <body>
-    <div id="menu-topo">
 
-<<<<<<< HEAD
+    <div id="menu-topo">
       <?php
       include("menu.php");
        ?>
     </div>
-=======
->>>>>>> 9663afa73e26db556c0bcfb93c415e6718820f49
+
+
 
     <div class="corpoq3">
 
     <div class="enunciadoq3">
     <h2>Questão 3:</h2>
-    <p>Conjugue o verboo <span style="background-color: #ffff00">jogar:</span></p>
+    <p>Conjugue o verbo <span style="background-color: #ffff00">jogar:</span></p>
     </div>
 
-      <div class="frases">
-        <br>
-        <form class="" action="" method="post">
-            <label for="">A) João <input id="campoL" type="text" name="respotaA" value=""
-            class="campo" placeholder="Sua reposta"> volei de areia</label>
+      <div class="altq3">
+
+        <form class="f1">
+            <label> A) João <input id="fse1" class="campof1" placeholder="Sua reposta"> volei de areia. (JOGAR)</label>
         </form>
-        <br>
-        <br>
-        <form class="" action="" method="post">
-            <label for="">B) Maria e João <input id="campoL" type="text" name="respotaA" value=""
-            class="campo" placeholder="Sua reposta"> volei de areia</label>
+
+        <form class="f2">
+            <label> B) Maria e João <input id="fse2" class="campof2" placeholder="Sua reposta"> volei de areia. (JOGAR) </label>
         </form>
-        <br>
-        <br>
-        <form class="" action="" method="post">
-            <label for="">C) Eu <input id="campoL" type="text" name="respotaA" value=""
-            class="campo" placeholder="Sua reposta"> volei de areia</label>
+
+        <form class="f3" >
+            <label> C) Eu <input id="fse3" class="campof3" placeholder="Sua reposta"> volei de areia. (JOGAR) </label>
         </form>
-        <br>
-        <br>
-        <form class="" action="" method="post">
-            <label for="">D) Eu, Maria e João <input id="campoL" type="text" name="respotaA" value=""
-            class="campo" placeholder="Sua reposta"> volei de areia</label>
+
+        <form class="f4">
+            <label> D) Eu, Maria e João <input id="fse4" class="campof4" placeholder="Sua reposta"> volei de areia. (JOGAR)</label>
         </form>
-        <br>
+
       </div>
 
-  <div class="enviarq3">
-
-  </div>  <input type="submit" name="" value="Entrar" class="botaoq3"><br> <br>
-
-    </div>
+      <div class="btn">
+        <input id="btnQ3" type="button" value="Enviar" class="botao">
+      </div>
 
   </body>
 </html>

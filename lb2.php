@@ -29,12 +29,12 @@
     <p class="texto"> Além de expressar ações, o verbo em sua forma infinitiva, possui como terminação: ar - er - ir. <br> </p>
     <p class="texto"> Adjetivos: palavras que atribuem características aos seres.</p>
 
-    
+
     <div class="limparfloat"></div>
     </div>
 
     <div class="confirmacao">
-      <input id="botaoProsseguir" type="button" value="Entendido!" class="botao">
+      <input id="btnLb2" type="button" value="Entendido!" class="botao">
     </div>
 
   </body>

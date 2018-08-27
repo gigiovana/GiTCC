@@ -65,7 +65,7 @@
       <div class="limparfloat"></div>
 
     <div class="confirmacao">
-      <input id="botaoEnviar" type="button" value="Enviar" class="botao">
+      <input id="btnQ1" type="button" value="Enviar" class="botao">
     </div>
 
   </div>

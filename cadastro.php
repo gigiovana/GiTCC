@@ -49,7 +49,7 @@
       <input type="password" name="senha" value="" class="campo"><br>
 
       <br>
-      <input id="btnEnviar" type="button" value="Enviar" class="botao">
+      <input id="btnCadastro" type="button" value="Enviar" class="botao">
       <input type="reset"  value="Limpar" class="botao">
 
     </form>
