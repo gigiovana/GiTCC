@@ -74,7 +74,7 @@ label{
     font-size: 20px;
   }
 
- .cadastro .botao, .confirmacao .botao, .botaoInicio .botao, .login .botao, .confirmacao .botaoq2{
+ .cadastro .botao, .confirmacao .botao, .botaoInicio .botao, .login .botao, .confirmacao .botaoq2, .confirmacao .botaoq4 {
   border: 1px solid #86592d;
   border-radius: 4px;
    /*"engorda" os elementos da classe campo*/
@@ -85,7 +85,11 @@ label{
 
 
   /*aplica essas propriedades somente no botão*/
+<<<<<<< HEAD
   .login .botao, .cadastro .botao, .confirmacao .botao, .botaoInicio .botao, .confirmacao .botaoq2{
+=======
+  .login .botao, .cadastro .botao, .confirmacao .botao, .botaoInicio .botao, .confirmacao .botaoq2, .confirmacao .botaoq4 {
+>>>>>>> 8962a06f20b24aa0e20260db707afa9476c92ceb
     background-color:#82ff82;
     color: #000000;
 		border-radius: 6px;
@@ -93,7 +97,11 @@ label{
 		box-shadow: 4px 4px 1px #666666;
   }
 
+<<<<<<< HEAD
 	.login .botao:hover, .cadastro .botao:hover, .confirmacao .botao:hover, .botaoInicio .botao:hover, .confirmacao .botaoq2:hover, .q3 .botaoq3{
+=======
+	.login .botao:hover, .cadastro .botao:hover, .confirmacao .botao:hover, .botaoInicio .botao:hover, .confirmacao .botaoq2:hover, .confirmacao .botaoq4:hover{
+>>>>>>> 8962a06f20b24aa0e20260db707afa9476c92ceb
 		box-shadow: 4px 4px 7px #001a00;
 	}
 
@@ -382,6 +390,10 @@ box-shadow: 4px 5px 5px #666666;
 margin: 10px 700px;
 }
 
+.confirmacao .botaoq4{
+  margin: 10px 700px;
+}
+
 /** TELA QUESTAO TRES **/
 .corpoq3 .enunciadoq3 h2{
   border-left: 3px solid #004d00;
@@ -463,6 +475,16 @@ margin: 10px 700px;
   border: 1px solid #aaaaaa;
   }
 
+  .f1, .f2, .f3{
+    height: 100px;
+  /*  border: 2px solid #000000;
+    border-radius: 6px;
+    background: radial-gradient(80% 80%, #bfffbf, #fff);
+    box-shadow: 4px 5px 5px #666666;
+    background-size: 100%;
+    float: left;*/
+  }
+
 .perguntasq4 span{
  color: black;
   font-family: "Times New Roman", Times, serif;
@@ -514,4 +536,88 @@ margin: 10px 700px;
 #drop1 {
   width: 50px;
   height: 50px;
+}
+
+/* TELA QUESTÃO 5*/
+
+.corpoq5 .enunciadoq5 h2{
+  border-left: 3px solid #004d00;
+  background-color: lightgrey;
+  margin: 5px 0;
+}
+
+.corpoq5{
+  margin: 0 auto;
+  width: 850px;
+}
+.montante{
+  width: 810px;
+  height: 300px;
+  border: 2px solid #000000;
+  position: relative;
+  margin: 0px 10px 10px 0px ;
+  border-radius: 6px;
+  background: radial-gradient(80% 80%, #bfffbf, #fff); /*degrade*/
+  box-shadow: 4px 5px 5px #666666;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.montante span, .containerRelacao span, .containerFrases span{
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  float: left;
+  width: 170px;
+  height: 70px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.containerRelacao, .containerFrases{
+    width: 400px;
+    height: 500px;
+    border: 2px solid #000000;
+    position: relative;
+    margin: 0px 10px 10px 0px ;
+    border-radius: 6px;
+    background: radial-gradient(80% 80%, #bfffbf, #fff); /*degrade*/
+    box-shadow: 4px 5px 5px #666666;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+
+
+/*.montante, .containerVerbos {
+    float: left;
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}*/
+.limpaarfloat{
+  clear:right;
+}
+
+
+/*.linha1 span, .linha2 span, .linha3 span{
+
+  "engorda" os elementos da classe campo
+  padding: 8px 5px;
+  width: 150px;
+  font-size: 30px;
+  background-color:#ffffff;
+  color: #000000;
+  border-radius: 3px;
+  box-shadow: 4px 4px 1px #666666;
+}*/
+
+.confirmacao .botaoq5{
+margin: 10px 700px;
 }
