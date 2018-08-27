@@ -30,7 +30,7 @@
     <br>
     <p class="texto">Verbo é a palavra que, por si só, exprime um fato(em geral, uma ação,
       um estado ou um fenômeno, variando sua forma para situar esse fato no tempo).</p>
-    <p class="texto"> Além de expressar ações, o verbo em sua forma infinitiva, possui como terminação: ar - er - ir.</p>
+
 
     <br>
     <br>

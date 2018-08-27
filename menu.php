@@ -1,4 +1,4 @@
-<?php
+
    <div id="menu-topo">
       <ul>
         <li> <a href="#"><b>Página Inicial</b></a> </li>
@@ -9,4 +9,3 @@
         <li> <a href="#"><b>Sobre Nós</b></a> </li>
       </ul>
     </div>
-     ?>
