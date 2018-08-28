@@ -29,13 +29,13 @@
 
       <div class="inicio">
         <div class="botaoInicio">
-          <input id="btnJogar" type="button" value="JOGAR" class="botao" >
-          <!-- <a href="lb1" id="btnJogar" class="botao">JOGAR</a> -->
-        </div>
+          <!-- <input id="btnJogar" type="button" value="JOGAR" class="botao" > -->
+           <a href="lb1.php" id="btnJogar" class="botao">JOGAR</a>
 
-        <div class="botaoComo">
-          <!-- <a href="#" id="btnComo" class="botao">COMO JOGAR</a> -->
-          <input id="btnComo" type="button" value="COMO JOGAR" class="botao">
+           <br>
+           <br>
+          <a href="#" id="btnComo" class="botao">COMO JOGAR</a>
+          <!-- <input id="btnComo" type="button" value="COMO JOGAR" class="botao"> -->
         </div>
 
       </div>
