@@ -72,6 +72,7 @@
     <div class="enunciadoq4">
       <h2>Questão 4:</h2>
       <p>Ordene as frases, colocando na ordem: o elemento que realiza a ação, em seguida, o verbo e depois seu complemento.</p>
+
     </div>
 
     <div class="perguntasq4" ondrop="drop(event)" ondragover="allowDrop(event)">
@@ -81,6 +82,8 @@
         <!-- Colocar a mesma classe na palavra (span) e na div que ela vai (resposta) -->
 
         <div class="f1">
+          <br>
+          <br>
           <span id="letra">A)</span>
           <span class="q1a" draggable="true" ondragstart="drag(event)" id="caixa1" width="88" height="31" >A bola</span>
           <span class="q1a" draggable="true" ondragstart="drag(event)" id="caixa2" width="88" height="31" >Jogou</span>
@@ -102,16 +105,16 @@
 
         <div class="f2">
           <span id="letra">B)</span>
-          <span draggable="true" ondragstart="drag(event)" id="caixa4" width="88" height="31" >Os meninos</span>
-          <span draggable="true" ondragstart="drag(event)" id="caixa5" width="88" height="31" >Seus tênis</span>
-          <span draggable="true" ondragstart="drag(event)" id="caixa6" width="88" height="31" >Venderam</span>
+          <span class="q1b" draggable="true" ondragstart="drag(event)" id="caixa4" width="88" height="31" >Os meninos</span>
+          <span class="q1b" draggable="true" ondragstart="drag(event)" id="caixa5" width="88" height="31" >Seus tênis</span>
+          <span class="q1b" draggable="true" ondragstart="drag(event)" id="caixa6" width="88" height="31" >Venderam</span>
           <div class="limparfloat"></div>
         </div>
 
         <div class="resp2">
-          <div class="r2" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
-          <div class="r2" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
-          <div class="r2" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
+          <div class="r2 q1b" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
+          <div class="r2 q1b" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
+          <div class="r2 q1b" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
           <div class="limparfloat"></div>
         </div>
       </div>
@@ -119,18 +122,18 @@
 
       <div id="q3">
 
-        <span id="letra">C)</span>
         <div class="f3">
-          <span draggable="true" ondragstart="drag(event)" id="caixa7" width="88" height="31" >Gostamos</span>
-          <span draggable="true" ondragstart="drag(event)" id="caixa8" width="88" height="31" >Eu e minha família</span>
-          <span draggable="true" ondragstart="drag(event)" id="caixa9" width="88" height="31" >De lasanha</span>
+          <span id="letra">C)</span>
+          <span class="q1c" draggable="true" ondragstart="drag(event)" id="caixa7" width="88" height="31" >Gostamos</span>
+          <span class="q1c" draggable="true" ondragstart="drag(event)" id="caixa8" width="88" height="31" >Eu e minha família</span>
+          <span class="q1c" draggable="true" ondragstart="drag(event)" id="caixa9" width="88" height="31" >De lasanha</span>
           <div class="limparfloat"></div>
         </div>
 
         <div class="resp3">
-          <div class="r3" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
-          <div class="r3" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
-          <div class="r3" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
+          <div class="r3 q1c" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
+          <div class="r3 q1c" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
+          <div class="r3 q1c" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
           <div class="limparfloat"></div>
         </div>
       </div>

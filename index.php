@@ -18,7 +18,7 @@
     </div>
 
 
-      <div class="para">
+      <div id="corpoInicial">
       <h1> O que é o jogo?</h1>
       <br>
       <p class="texto1"> Este jogo é destinado para você, aluno surdo,
@@ -28,17 +28,12 @@
       </div>
 
       <div class="inicio">
-        <div class="botaoInicio">
           <!-- <input id="btnJogar" type="button" value="JOGAR" class="botao" > -->
            <a href="lb1.php" id="btnJogar" class="botao">JOGAR</a>
 
-           <br>
-           <br>
           <a href="#" id="btnComo" class="botao">COMO JOGAR</a>
           <!-- <input id="btnComo" type="button" value="COMO JOGAR" class="botao"> -->
         </div>
 
-      </div>
-    </div>
   </body>
 </html>

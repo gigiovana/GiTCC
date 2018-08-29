@@ -10,14 +10,10 @@
   <body>
 
     <div id="menu-topo">
-      <ul>
-        <li> <a href="#"><b>Página Inicial</b></a> </li>
-        <li> <a href="cadastro.html"><b>Cadastro</b></a> </li>
-        <li> <a href="login.html"><b>Login</b></a> </li>
-        <li> <a href="#"><b>Descrição do Jogo</b></a> </li>
-        <li> <a href="#"><b>Como Jogar</b></a> </li>
-        <li> <a href="#"><b>Sobre Nós</b></a> </li>
-      </ul>
+      <?php
+      include("menu.php");
+       ?>
+    </div>
 
 
       <div class="para">
@@ -31,11 +27,11 @@
 
       <div class="inicio">
         <div class="botaoInicio">
-          <input id="botaoInicio" type="button" value="JOGAR" class="botao">
-        </div>
+          <a href="lb1.php" id="btnJogar" class="botao">JOGAR</a>
+         </div>
 
         <div class="botaoComo">
-          <input id="botaoComo" type="button" value="COMO JOGAR" class="botao">
+          <a href="#" id="btnComo" class="botao">COMO JOGAR</a>
         </div>
 
       </div>
