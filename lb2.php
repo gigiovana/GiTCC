@@ -34,7 +34,7 @@
     </div>
 
     <div class="confirmacao">
-      <input id="btnLb2" type="button" value="Entendido!" class="botao">
+      <input id="btnLb2" type="button" value="Entendido!" class="botaolb2">
     </div>
 
   </body>

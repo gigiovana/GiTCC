@@ -48,7 +48,7 @@ body{
   font-size: 20px;
 }
 
-.botao{
+.botao, .botaolb2{
   background-color:#daffb3;
   border: 1px solid #bcbcbc;
   box-shadow: 4px 4px 1px #95a583;
@@ -59,7 +59,7 @@ body{
 }
 
 
-.botao:hover{
+.botao:hover, .botaolb2:hover{
   box-shadow: 4px 4px 7px #001a00;
 }
 
@@ -297,7 +297,6 @@ th {
 
 
 
-
 /**** QUESTAO DOIS ****/
 .corpoq2 .enunciadoq2 h2{
   border-left: 3px solid #004d00;
@@ -382,11 +381,6 @@ th {
 }*/
 
 
-#btnQ2{
-margin: 10px 700px;
-}
-
-
 
 
 
@@ -426,7 +420,11 @@ margin: 10px 700px;
 }
 
 
+.botaolb2{
+  margin-left: 1140px;
+  margin-top: 10px;
 
+}
 
 
 
