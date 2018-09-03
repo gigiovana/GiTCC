@@ -586,3 +586,90 @@ th {
 .confirmacao .botaoq5{
 margin: 10px 700px;
 }
+
+
+
+/**** QUESTAO 6 ****/
+.corpoq6 .enunciadoq6 h2{
+  border-left: 3px solid #004d00;
+  background-color: lightgrey;
+  margin: 5px 0;
+}
+
+.corpoq6{
+  margin: 0 auto;
+  width: 850px;
+}
+.montante{
+  width: 810px;
+  height: 300px;
+  border: 2px solid #000000;
+  position: relative;
+  margin: 0px 10px 10px 0px ;
+  border-radius: 6px;
+  background: radial-gradient(80% 80%, #bfffbf, #fff); /*degrade*/
+  box-shadow: 4px 5px 5px #666666;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+
+.altq6 .frase1 label, .altq6 .frase2 label, .altq6 .frase3 label, .altq6 .frase4 label{
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+  font-size: 30px;
+  text-indent: 50px;
+  color: black;
+}
+
+.altq6{
+  border: 1px solid #cccccc;
+  width: 800px;
+  height: 400px;
+}
+
+#btnQ6{
+  margin-left: 700px;
+  margin-top: 10px;
+}
+.campog1, .campog2, .campog3, .campog4{
+  width: 150px;
+  height: 35px;
+}
+.campod1, .campod2, .campod3, .campod4{
+  width: 150px;
+  height: 35px;
+}
+.campov1, .campov2, .campov3, .campov4{
+  width: 150px;
+  height: 35px;
+}
+.campox1, .campox2, .campox3, .campox4{
+  width: 150px;
+  height: 35px;
+}
+
+
+.botaolb2{
+  margin-left: 1140px;
+  margin-top: 10px;
+
+}
+
+.limpaarfloat{
+  clear:right;
+}
+
+
+/*.linha1 span, .linha2 span, .linha3 span{
+
+  "engorda" os elementos da classe campo
+  padding: 8px 5px;
+  width: 150px;
+  font-size: 30px;
+  background-color:#ffffff;
+  color: #000000;
+  border-radius: 3px;
+  box-shadow: 4px 4px 1px #666666;
+}*/
