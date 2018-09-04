@@ -22,7 +22,7 @@
 
       <div class="login">
 
-        <form class="" action="" method="post">
+        <form class="" action="controle/verificaLogin.php" method="post">
 
           <img src="IMG/login-img.png"  height="150" alt=""> <br>
 
@@ -36,7 +36,7 @@
             <label for="lembrar"><b>Lembrar minha senha</b></label>
             <br>
 
-            <input id="btnLogin" value="Entrar" class="botao"><br> <br>
+            <input id="btnLogin" type="submit" value="Entrar" class="botao"><br> <br>
 
             <a href="#">Esqueceu a senha?</a> <br>
             <a href="cadastro.html">Cadastre-se</a>
