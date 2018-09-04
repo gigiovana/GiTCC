@@ -41,9 +41,9 @@
             <!-- Criando uma linha -->
             <tr>
                 <!-- Criando colunas de título -->
-                <th>Passado</th>
-                <th>Presente</th>
-                <th>Futuro</th>
+                <th>Passado <br> <img src="IMG/passado.png" alt=""> </th>
+                <th> Presente <br> <img src="IMG/presente.png" alt=""> </th>
+                <th>Futuro <br> <img src="IMG/futuro.png" alt=""> </th>
             </tr>
         </thead>
 
