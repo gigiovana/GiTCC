@@ -24,11 +24,16 @@
 
     <div class="conteudo">
 
-    <h1> Sobre Verbos:</h1>
+    <h1> Verbos: <img src="IMG/verbo.png" alt="">  </h1>
     <br>
     <p class="texto"> Além de expressar ações, o verbo em sua forma infinitiva, possui como terminação: ar - er - ir. <br> </p>
-    <p class="texto"> Adjetivos: palavras que atribuem características aos seres.</p>
 
+    <br>
+    <br>
+
+    <h1> Adjetivos: <img src="IMG/adjetivo.png" alt="">  </h1>
+    <br>
+    <p class="texto"> Adjetivos: palavras que atribuem características aos seres.</p>
 
     <div class="limparfloat"></div>
     </div>

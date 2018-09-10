@@ -8,6 +8,8 @@
     body{
       background: #ffffff;
     }
+
+
     </style>
   </head>
 
@@ -17,10 +19,15 @@
     <div id="menu-topo">
 
       <?php
-      include("menu.php");
+      include("php/menu.php");
        ?>
     </div>
 
+
+    <div class="video">
+      <iframe width="390" height="250" src="https://www.youtube.com/embed/eXnBVSwVNzw"
+      frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
 
 
     <div class="corpo">
@@ -69,5 +76,7 @@
     </div>
 
   </div>
+  <div class="limparfloat"></div>
+  
   </body>
 </html>
