@@ -30,19 +30,19 @@
       <div class="altq3">
 
         <form class="f1">
-            <label> A) João <input id="fse1" class="campof1" placeholder="Sua reposta"> volei de areia. (JOGAR)</label>
+            <label> A) João <input id="fse1" class="campof1" placeholder="sua reposta"> volei de areia. (JOGAR)</label>
         </form>
 
         <form class="f2">
-            <label> B) Maria e João <input id="fse2" class="campof2" placeholder="Sua reposta"> volei de areia. (JOGAR) </label>
+            <label> B) Maria e João <input id="fse2" class="campof2" placeholder="sua reposta"> volei de areia. (JOGAR) </label>
         </form>
 
         <form class="f3" >
-            <label> C) Eu <input id="fse3" class="campof3" placeholder="Sua reposta"> volei de areia. (JOGAR) </label>
+            <label> C) Eu <input id="fse3" class="campof3" placeholder="sua reposta"> volei de areia. (JOGAR) </label>
         </form>
 
         <form class="f4">
-            <label> D) Eu, Maria e João <input id="fse4" class="campof4" placeholder="Sua reposta"> volei de areia. (JOGAR)</label>
+            <label> D) Eu, Maria e João <input id="fse4" class="campof4" placeholder="sua reposta"> volei de areia. (JOGAR)</label>
         </form>
 
       </div>

@@ -292,6 +292,13 @@ th {
   width: 150px;
 }
 
+  /*** TELA LEMBRETE QUESTÃO TRES ***/
+.listalb{
+font-size: 25px;
+font-family: "Times New Roman", Times, serif;
+margin-left: 30px;
+}
+
 
 
 
@@ -381,9 +388,6 @@ th {
 }*/
 
 
-
-
-
 /** TELA QUESTAO TRES **/
 .corpoq3 .enunciadoq3 h2{
   border-left: 3px solid #004d00;
@@ -399,7 +403,7 @@ th {
 .altq3 .f1 label, .altq3 .f2 label, .altq3 .f3 label, .altq3 .f4 label{
   font-family: "Times New Roman", Times, serif;
   text-align: justify;
-  font-size: 30px;
+  font-size: 25px;
   text-indent: 50px;
   color: black;
 }
@@ -416,7 +420,7 @@ th {
 }
 .campof1, .campof2, .campof3, .campof4{
   width: 150px;
-  height: 35px;
+  height: 33px;
 }
 
 
@@ -425,7 +429,10 @@ th {
   margin-top: 10px;
 
 }
-
+.campof1, .campof2, .campof3, .campof4{
+  font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
+}
 
 
 /* TELA QUESTÃO QUATRO*/
@@ -438,6 +445,7 @@ th {
 
   .corpoq4{
     margin: 0 auto;
+
     width: 850px;
   }
 
