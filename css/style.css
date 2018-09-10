@@ -226,10 +226,17 @@ label{
 }
 
 .corpo{
-  margin: 0 auto;
+  margin-right: 100px;
   width: 550px;
+  float: left;
+  background: green;
 }
 
+.video{
+  margin-left: 50px;
+  margin-top: 20px;
+  float: left;
+}
 
 
 
