@@ -26,7 +26,7 @@
 
     <div class="cadastro">
 
-    <form id="formCadastro" class="" action="https://www.google.com.br/search" method="get">
+    <form id="formCadastro" class="" action="controle/verificaCadastro.php" method="get">
 
       <label for=""><b>Nome:</b></label><br>
       <input type= "text" name="nome" value="" required placeholder="Digite seu nome" class="campo"> <br>
@@ -49,7 +49,7 @@
       <input type="password" name="senha" value="" class="campo"><br>
 
       <br>
-      <input id="btnCadastro" type="button" value="Enviar" class="botao">
+      <input type="submit" value="Enviar" id="btnCadastro" class="botao">
       <input type="reset"  value="Limpar" class="botao">
 
     </form>
