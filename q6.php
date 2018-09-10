@@ -6,7 +6,12 @@
 
   <link rel="stylesheet" type= "text/css" href="css/style.css"/>
 
-  <script>
+  <style media="screen">
+  body{
+    background: #ffffff;
+  }
+  </style>
+ <!-- <script>
   function allowDrop(ev) {
     ev.preventDefault();
   }
@@ -20,9 +25,10 @@
     var data = ev.dataTransfer.getData("text");
     ev.target.appendChild(document.getElementById(data));
   }
-  </script>
+  </script> -->
 
 </head>
+
 <body>
 
   <div id="menu-topo">
@@ -31,106 +37,123 @@
     ?>
   </div>
 
+<br>
 
   <div class="corpoq6">
+
+
     <div class="enunciadoq6">
       <h2>Questão 6:</h2>
       <p>Posicione as palavras de modo que formem frases:</p>
     </div>
 
-    <div class="">
+    <div class="altq6">
+
+
       <label for="">A)</label>
 
       <select class="combobox" name="">
-        <option value="">comeu</option>
-        <option value="">o gato</option>
-        <option value="">a ração</option>
+        <option value="">Selecione</option>
+        <option value="2">comeu</option>
+        <option value="1">o gato</option>
+        <option value="3">a ração</option>
       </select>
 
       <select class="combobox" name="">
-        <option value="">comeu</option>
-        <option value="">o gato</option>
-        <option value="">a ração</option>
+        <option value="">Selecione</option>
+        <option value="2">comeu</option>
+        <option value="1">o gato</option>
+        <option value="3">a ração</option>
       </select>
 
       <select class="combobox" name="">
-        <option value="">comeu</option>
-        <option value="">o gato</option>
-        <option value="">a ração</option>
+        <option value="">Selecione</option>
+        <option value="2">comeu</option>
+        <option value="1">o gato</option>
+        <option value="3">a ração</option>
       </select>
-    </div>
+
     <br>
 
-    <div class="">
+<br>
       <label for="">B)</label>
 
       <select class="combobox" name="">
+        <option value="">Selecione</option>
         <option value="">a bola</option>
         <option value="">os meninos</option>
         <option value="">chutaram</option>
       </select>
 
       <select class="combobox" name="">
+        <option value="">Selecione</option>
         <option value="">a bola</option>
         <option value="">os meninos</option>
         <option value="">chutaram</option>
       </select>
 
       <select class="combobox" name="">
+        <option value="">Selecione</option>
         <option value="">a bola</option>
         <option value="">os meninos</option>
         <option value="">chutaram</option>
       </select>
-    </div>
+
     <br>
 
-    <div class="">
+<br>
       <label for="">C)</label>
 
       <select class="combobox" name="">
+        <option value="">Selecione</option>
         <option value="">viram</option>
         <option value="">eles</option>
         <option value="">o ladrão</option>
       </select>
 
       <select class="combobox" name="">
+        <option value="">Selecione</option>
         <option value="">viram</option>
         <option value="">eles</option>
         <option value="">o ladrão</option>
       </select>
 
       <select class="combobox" name="">
+        <option value="">Selecione</option>
         <option value="">viram</option>
         <option value="">eles</option>
         <option value="">o ladrão</option>
       </select>
-    </div>
+
     <br>
 
-    <div class="">
+<br>
       <label for="">D)</label>
 
       <select class="combobox" name="">
+        <option value="">Selecione</option>
         <option value="">atirou</option>
         <option value="">a pedra</option>
         <option value="">a menina</option>
       </select>
 
       <select class="combobox" name="">
+        <option value="">Selecione</option>
         <option value="">a pedra</option>
         <option value="">atirou</option>
         <option value="">a menina</option>
       </select>
 
       <select class="combobox" name="">
+        <option value="">Selecione</option>
         <option value="">a pedra</option>
         <option value="">atirou</option>
         <option value="">a menina</option>
       </select>
-    </div>
 
+ <br>
 
-
+  </div>
     <!-- <div class="montante" ondrop="drop(event)" ondragover="allowDrop(event)">
       <div class="linha1">
         <span  draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31"> Comeu </span>
@@ -187,12 +210,10 @@
       </div>
     </div> -->
 
-
     <div class="confirmacao">
       <input id="btnQ6" type="button" value="Enviar" class="botao">
     </div>
 
-  </div>
 
 </body>
 </html>

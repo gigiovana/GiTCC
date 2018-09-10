@@ -633,6 +633,7 @@ margin: 10px 700px;
   margin-left: 700px;
   margin-top: 10px;
 }
+/*
 .campog1, .campog2, .campog3, .campog4{
   width: 150px;
   height: 35px;
@@ -649,7 +650,7 @@ margin: 10px 700px;
   width: 150px;
   height: 35px;
 }
-
+*/
 
 .botaolb2{
   margin-left: 1140px;
@@ -677,4 +678,5 @@ margin: 10px 700px;
 .combobox{
   padding: 5px 10px;
   font-size: 16px;
+  width: 240px;
 }
