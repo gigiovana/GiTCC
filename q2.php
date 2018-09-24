@@ -27,7 +27,7 @@
 
     <div id="menu-topo">
       <?php
-      include("menu.php");
+      include("php/menu.php");
        ?>
     </div>
 
@@ -84,7 +84,7 @@
       <div class="limparfloat"></div>
 
       <div class="confirmacao">
-      <input id="btnQ2" type="button" value="Enviar" class="botao"> 
+      <input id="btnQ2" type="button" value="Enviar" class="botao">
       </div>
 
     </div>

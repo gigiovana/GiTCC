@@ -17,7 +17,7 @@
     <div class="menu-topo">
 
       <?php
-      include("menu.php");
+      include("php/menu.php");
       ?>
 
   </div>

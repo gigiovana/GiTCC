@@ -14,17 +14,21 @@
 
     <div id="menu-topo">
       <?php
-      include("menu.php");
+      include("php/menu.php");
        ?>
     </div>
 
 
+    <div class="video">
+      <iframe width="500" height="360" src="https://www.youtube.com/embed/eXnBVSwVNzw"
+      frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
 
     <div class="corpoq3">
 
     <div class="enunciadoq3">
     <h2>Questão 3:</h2>
-    <p>Conjugue o verbo <span style="background-color: #ffff00">jogar:</span></p>
+    <p>Conjugue o verbo <span style="background-color: #ffff00">jogar:</span> <img src="IMG/jogar.png" alt=""> </p>
     </div>
 
       <div class="altq3">
@@ -50,6 +54,6 @@
       <div class="btn">
         <input id="btnQ3" type="button" value="Enviar" class="botao">
       </div>
-
+      <div class="limparfloat"></div>
   </body>
 </html>

@@ -25,7 +25,7 @@
 
 
     <div class="video">
-      <iframe width="390" height="250" src="https://www.youtube.com/embed/eXnBVSwVNzw"
+      <iframe width="520" height="380" src="https://www.youtube.com/embed/eXnBVSwVNzw"
       frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
 
@@ -34,8 +34,9 @@
 
     <div class="enunciado">
     <h2>Questão 1:</h2>
-    <p>Selecione a imagem que corresponde a um <span style="background-color: #ffff00">verbo:</span></p>
+    <p>Selecione a imagem que corresponde a um <span style="background-color: #ffff00">verbo:</span>   <img src="IMG/verbo.png" alt=""></p>
     </div>
+
 
   <div class="img">
 
@@ -57,7 +58,7 @@
     <div class="limparfloat"></div>
 
     <div class="fileira3">
-      <img id="img3" src="IMG/andar.png" alt="" style="width:100%">
+      <img id="img3" src="IMG/andar.png" alt="" style="width:173px">
       <input type="radio" name="questao1" id="q1c" value="c">
       <label for="q1c">C)Andar</label><br>
     </div>
@@ -77,6 +78,6 @@
 
   </div>
   <div class="limparfloat"></div>
-  
+
   </body>
 </html>

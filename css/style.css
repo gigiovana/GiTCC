@@ -10,7 +10,7 @@ body{
 #menu-topo ul{
   /* Só aplica-se ao elemento ul
   que está dentro do id menu-topo */
-  background-color: #004d00;
+  background-color: #00004d;
   list-style-type: none;
   box-shadow: #bbbbbb 1px 3px 5px;
   text-align: center;
@@ -35,13 +35,34 @@ body{
 }
 #menu-topo ul a:hover{
   background-color: #999999;
-  height: 40px;
+  height: 30px;
+}
+ #imglogo{
+  height: 600px;
+  width: 800px;
+  margin: 0px;
+  margin-left: 305px;
 }
 
 
+
+
+
+
+
+
+
+/* #001a33  - mais escuro
+#0059b3 -  claro
+#1a1aff - médio botão
+#00284d - escuro
+ #ccddff; clarissimo
+
+*/
+
 /*** BOTAO ***/
 .login .campo, .cadastro .campo{
-  border: 1px solid #000000;
+  border: 2px solid #00284d;
   border-radius: 4px;
   padding: 13px 5px;
   width: 270px;
@@ -49,8 +70,8 @@ body{
 }
 
 .botao, .botaolb2{
-  background-color:#daffb3;
-  border: 1px solid #bcbcbc;
+  background-color:#80bfff;
+  border: 2px solid #00284d;
   box-shadow: 4px 4px 1px #95a583;
   border-radius: 6px;
   padding: 13px 5px;
@@ -60,41 +81,92 @@ body{
 
 
 .botao:hover, .botaolb2:hover{
-  box-shadow: 4px 4px 7px #001a00;
+  box-shadow: 4px 4px 7px #001a33;
 }
+
+
+
+
+
+
 
 /*TELA DE CADASTRO*/
-label{
+#imgUser{
+  height: 170px;
+  width: 170px;
+  margin-bottom: 10px;
+}
+#cad, #log{
+  font-size: 25px;
   color:black;
   font-family: "Times New Roman", Times, serif;
-  font-size: 18px;
+  margin-top: 50px;
 }
-
-
-/*** CADASTRO E LOGIN **/
-.login, .cadastro{
-    background-color: #ffffff;
-  	border: 1px solid #000000;
+/* .img-topo{
+  margin-top: 0;
+} */
+#btnCadastro{
+  margin-right: 10px;
+}
+.cadastro{
+    /* background-color: #ffffff; */
+  	border: 1px solid #00004d;
 		border-radius: 10px;
-    width: 400px;
+    width: 350px;
     text-align: center;
-    margin: 20px auto;
-    padding: 50px;
-		background: radial-gradient(80% 80%, #bfffbf, #fff); /*degrade*/
+    margin: 30px auto;
+    padding: 40px;
+		background-color:#ccddff; /*degrade*/
 		box-shadow: 4px 5px 5px #666666; /*sombras*/
   }
 
 
+/*** CADASTRO E LOGIN **/
+.login{
+    /* background-color: #ffffff; */
+  	border: 1px solid #00004d;
+		border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    margin: 30px auto;
+    padding: 40px;
+		background-color:#ccddff; /*degrade*/
+    box-shadow: 4px 5px 5px #666666; /*sombras*/
+  }
+  a:link {
+    text-decoration: none;
+}
 
-/*** Posicionar os elementos lado a lado na tela. ***/
-  * {
-  box-sizing: border-box;
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+#es, #cd{
+  font-size: 18px;
+  color:black;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 5px;
 }
 
 
 
+
+/*** Posicionar os elementos lado a lado na tela. ***/
+  /* * {
+  box-sizing: border-box;
+} */
+
+
+
 /*** TELA DE INÍCIO****/
-#btnComo, #btnJogar{
+#btnComo, #btnJogar, #btnLg, #btnSb{
   display: block;
   width: 200px;
   font-size: 25px;
@@ -103,12 +175,15 @@ label{
   color:black;
   font-family: "Times New Roman", Times, serif;
 }
-
-#btnJogar{
-  margin-top: 50px;
+#btnSb{
+  margin-bottom: 10px;
 }
 
-#btnComo .botao:hover, #btnJogar .botao:hover{
+#btnLg, #btnComo, #btnSb{
+  margin-top: 10px;
+}
+
+#btnComo .botao:hover, #btnJogar .botao:hover, #btnLg .botao:hover, #btnSb .botao:hover, {
   box-shadow: 4px 4px 7px #001a33;
 }
 
@@ -118,9 +193,10 @@ label{
 
 .inicio{
   margin: 0 600px;
-  margin-top: 100px;
+  margin-top: 0px;
   width: 100px;
 }
+
 
 .corpoInicial .texto1{
   color: black;
@@ -131,8 +207,8 @@ label{
 
 }
 
-  #corpoInicial{
-  /* border: 1px solid #BABABA; */
+  /* #corpoInicial{
+  border: 1px solid #BABABA;
   border-radius: 6px;
   padding: 8px;
   position: static;
@@ -141,9 +217,9 @@ label{
   margin-top: 50px;
   background: radial-gradient(90% 100%, #daffb3, #fff);
   /* box-shadow: 4px 5px 5px #666666; */
-  border: 1px solid #bcbcbc;
-  box-shadow: 4px 4px 1px #95a583;
-}
+  /* border: 1px solid #bcbcbc; */
+  /* box-shadow: 4px 4px 1px #95a583; */
+/* } */
 
 
 
@@ -217,25 +293,30 @@ label{
  .corpo .enunciado h2{
    border-left: 3px solid #004d00;
    background-color: lightgrey;
-   margin: 5px 0;
+   margin-left: 0;
 }
 
+.corpo p{
+  margin: 5px 0;
+}
 .corpo .confirmacao{
   margin: 10px 0;
-  margin-left: 420px;
+  margin-left: 450px;
 }
 
 .corpo{
-  margin-right: 100px;
-  width: 550px;
+  /* margin-right: 70px; */
+  margin-left: 170px;
+  width: 570px;
   float: left;
-  background: green;
+  /* background: green; */
 }
 
 .video{
   margin-left: 50px;
   margin-top: 20px;
   float: left;
+  /* margin-right: 0px; */
 }
 
 
@@ -244,6 +325,12 @@ label{
 
 
 /*** TELA LEMBRETE ***/
+/* #001a33  - mais escuro
+#0059b3 -  claro
+#1a1aff - médio botão
+#00284d - escuro
+ #ccddff; clarissimo
+*/
 .texto{
   color: black;
   text-align: justify;
@@ -271,22 +358,22 @@ th, td {
   padding: 8px;
 }
 
-tr:nth-child(even){background-color: #f2f2f2}
+tr:nth-child(even){background-color: #ffffff}
 
 th {
-  background-color:#bfff80;
+  background-color:#80aaff;
   color: black;
 }
 
 .conteudo{
-  border: 1px solid #bcbcbc;
+  border: 1px solid #00284d ;
   border-radius: 6px;
   padding: 8px;
   position: static;
   width:1105px;
   margin: auto;
   margin-top: 50px;
-  background: radial-gradient(90% 100%, #daffb3, #fff);
+  background:  #ccddff;
   box-shadow: 4px 4px 1px #95a583;
 }
 
@@ -299,6 +386,10 @@ th {
   width: 150px;
 }
 
+
+
+
+
   /*** TELA LEMBRETE QUESTÃO TRES ***/
 .listalb{
 font-size: 25px;
@@ -306,8 +397,18 @@ font-family: "Times New Roman", Times, serif;
 margin-left: 30px;
 }
 
+/* Como jogar */
+/* .conteudo #jogarComo{
+  margin-left: 570px;
+} */
 
-
+/*
+.conteudo #clb2{
+  margin-left: 170px;
+}
+#lb2{
+  margin-right: 20px;
+} */
 
 
 
@@ -404,7 +505,9 @@ margin-left: 30px;
 
 .corpoq3{
   margin: 0 auto;
-  width: 800px;
+  width: 600px;
+  margin-right: 10px;
+  margin-left: 600px;
 }
 
 .altq3 .f1 label, .altq3 .f2 label, .altq3 .f3 label, .altq3 .f4 label{
@@ -451,7 +554,8 @@ margin-left: 30px;
   }
 
   .corpoq4{
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-left: 500px;
 
     width: 850px;
   }

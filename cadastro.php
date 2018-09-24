@@ -19,7 +19,7 @@
     <div id="menu-topo">
 
       <?php
-      include("menu.php");
+      include("php/menu.php");
        ?>
 
     </div>
@@ -28,13 +28,20 @@
 
     <form id="formCadastro" class="" action="controle/verificaCadastro.php" method="get">
 
-      <label for=""><b>Nome:</b></label><br>
+      <div class="img-topo">
+        <img src="IMG/user.png" id="imgUser">
+      </div>
+
+        <div class="limparfloat"></div>
+
+      <label id="cad"><b>Nome:</b></label><br>
       <input type= "text" name="nome" value="" required placeholder="Digite seu nome" class="campo"> <br>
 
-      <label for=""><b>E-mail:</b></label><br>
-      <input type="email" name="email" value="" required class="campo"><br>
 
-      <label for=""><b>Cidade:</b></label><br>
+      <label id="cad"><b>E-mail:</b></label><br>
+      <input type="email" name="email" value="" required class="campo" required placeholder="usuario@gmail.com"><br>
+
+      <!-- <label for=""><b>Cidade:</b></label><br>
       <select name="cidade" class="campo">
         <option value="">Selecione uma cidade</option>
 
@@ -43,10 +50,15 @@
         <option value="3">Paranavaí</option>
         <option value="4">São João do Caiuá</option>
       </select>
-      <br>
+      <br> -->
 
-      <label for=""><b>Senha:</b></label><br>
-      <input type="password" name="senha" value="" class="campo"><br>
+      <label id="cad"> <b>Senha:</b></label><br>
+      <input type="password" name="senha" value="" class="campo" required placeholder="Digite sua senha"><br>
+
+
+
+      <label id="cad"><b>Confirmar senha:</b></label><br>
+      <input type="password" name="confirmaSenha" value="" class="campo" required placeholder="Confirmar senha"><br>
 
       <br>
       <input type="submit" value="Enviar" id="btnCadastro" class="botao">

@@ -5,35 +5,43 @@
     <title>Tela Inicial</title>
 
       <link rel="stylesheet" type= "text/css" href="css/style.css"/>
-
+      <style media="screen">
+        body{
+          background-color: #ccddff;
+        }
+      </style>
   </head>
   <body>
 
-    <div id="menu-topo">
+        <div class="corpoindex">
+          <!-- <div class="limparfloat"></div> -->
 
-      <?php
-      include("menu.php");
-       ?>
-
-    </div>
+          <img id="imglogo" src="IMG/Giovana.png" alt="">
 
 
-      <div id="corpoInicial">
-      <h1> O que é o jogo?</h1>
-      <br>
-      <p class="texto1"> Este jogo é destinado para você, aluno surdo,
-      que está enfrentando dificuldades com a aprendizagem de língua portuguesa na escola.
-       Você será desafiado, na primeira fase deste jogo, por questões de diferentes níveis, sobre a classe gramatical verbo.
-        Venha comigo solucionar estes problemas. </p>
-      </div>
+          <!-- <div id="corpoInicial">
+          <h1> O que é o jogo?</h1>
+          <br>
+          <p class="texto1"> Este jogo é destinado para você, aluno surdo,
+          que está enfrentando dificuldades com a aprendizagem de língua portuguesa na escola.
+          Você será desafiado, na primeira fase deste jogo, por questões de diferentes níveis, sobre a classe gramatical verbo.
+          Venha comigo solucionar estes problemas. </p>
+        </div> -->
 
-      <div class="inicio">
+        <div class="inicio">
           <!-- <input id="btnJogar" type="button" value="JOGAR" class="botao" > -->
-           <a href="lb1.php" id="btnJogar" class="botao">JOGAR</a>
 
+          <a href="lb1.php" id="btnJogar" class="botao">JOGAR</a>
+          <a href="login.php" id="btnLg" class="botao">LOGIN</a>
           <a href="#" id="btnComo" class="botao">COMO JOGAR</a>
+          <a href="sobre.php" id="btnSb" class="botao">SOBRE</a>
+
+
+
           <!-- <input id="btnComo" type="button" value="COMO JOGAR" class="botao"> -->
         </div>
 
+
+      </div>
   </body>
 </html>
