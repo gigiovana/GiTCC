@@ -34,7 +34,7 @@
 
           <a href="lb1.php" id="btnJogar" class="botao">JOGAR</a>
           <a href="login.php" id="btnLg" class="botao">LOGIN</a>
-          <a href="#" id="btnComo" class="botao">COMO JOGAR</a>
+          <a href="comoJogar.php" id="btnComo" class="botao">COMO JOGAR</a>
           <a href="sobre.php" id="btnSb" class="botao">SOBRE</a>
 
 
@@ -46,4 +46,3 @@
       </div>
   </body>
 </html>
-

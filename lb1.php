@@ -62,8 +62,11 @@
     </div>
 
     <div class="confirmacao">
-      <input id="btnLb1" type="button" value="Entendido!" class="botao">
+      <a href="q1.php" id="btnLb1" class="botao">ENTENDIDO!</a>
     </div>
+
+
+
 
   </body>
 </html>

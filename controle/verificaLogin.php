@@ -42,4 +42,3 @@ echo "Olá {$login}, estamos tentando fazer seu login....";
 
 
 ?>
->>>>>>> aa7225dd5b2073b3082361127784a3be0d39290e

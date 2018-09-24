@@ -166,7 +166,7 @@ a:active {
 
 
 /*** TELA DE INÍCIO****/
-#btnComo, #btnJogar, #btnLg, #btnSb{
+#btnComo, #btnJogar, #btnLg, #btnSb, #btnLb1{
   display: block;
   width: 200px;
   font-size: 25px;
@@ -384,6 +384,7 @@ th {
   margin-bottom: 20px;
   font-size: 25px;
   width: 150px;
+
 }
 
 
