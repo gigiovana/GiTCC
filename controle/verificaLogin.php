@@ -1,21 +1,18 @@
-<<<<<<< HEAD
-<?php
+// $login = $_POST['usuario'];
 
-$login = $_POST['usuario'];
-
-$senha = $_POST['senha'];
+//$senha = $_POST['senha'];
 
 // Conectar no banco
 
 // Verificar se os dados tem lá
 
 
-echo "Olá {$login}, estamos tentando fazer seu login....";
+//echo "Olá {$login}, estamos tentando fazer seu login....";
 
 
 
-?>
-=======
+
+
 <?php
 
 $login = $_POST trim(['usuario']);
