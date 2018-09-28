@@ -42,7 +42,7 @@ if($validarCampos){
   $conexaoBanco = mysqli_connect('localhost','root','mysql','GiTCC');
   // include_once("bancoDados/conexao.php");
   $sqlinsert = "INSERT INTO usuario (nome, email, senha) VALUES ('$nome','$email','$senha')";
-  echo $sqlinsert;
+
   $resultado = mysqli_query($conexaoBanco, $sqlinsert);
 
 //   echo "<table border = '0' cellpadding='3'>";
