@@ -15,7 +15,7 @@ session_start();
 $nome = $_POST["nome"];
 $email = $_POST["email"];
 $senha = $_POST["senha"];
-// $confirmarSenha = $_POST["confirmarSenha"];
+$confirmaSenha = $_POST["confirmaSenha"];
 
 
 // Validar campos
@@ -30,7 +30,7 @@ if($email == ""){
   $validarCampos = false;
 }
 
-if($senha != $confirmarSenha){
+if($senha != $confirmaSenha){
   echo "Senhas não coincidem!";
   $validarCampos = false;
 }
@@ -39,10 +39,12 @@ if($senha != $confirmarSenha){
 
 // Criando tabela dos Jogadores cadastrados
 if($validarCampos){
-   $conexaoBanco = mysqli_connect('localhost','root','mysql','tcc');
+  $conexaoBanco = mysqli_connect('localhost','root','mysql','GiTCC');
   // include_once("bancoDados/conexao.php");
-  $sqlinsert = "INSERT INTO usuario (nome, email, senha) VALUES" . "('$nome','$email','$senha')";
+  $sqlinsert = "INSERT INTO usuario (nome, email, senha) VALUES ('$nome','$email','$senha')";
+
   $resultado = mysqli_query($conexaoBanco, $sqlinsert);
+
 //   echo "<table border = '0' cellpadding='3'>";
 // echo "<TR><TD> NOME:</TD><TD><B> $nome </B></TD></TR>";
 // echo "<TR><TD> E-MAIL:</TD><TD><B> $email </B></TD></TR>";
@@ -50,10 +52,10 @@ if($validarCampos){
 }
 if(mysqli_insert_id($conexaoBanco)){
   $_SESSION['msg'] = "<p style='color:green;'>Jogador cadastrado com sucesso!</p>";
-  header("Location: login.php"); // ABRE O ARQUIVO INDEX.PHP QUANDO CLICAR NO BOTÃO
+  //header("Location: login.php"); // ABRE O ARQUIVO INDEX.PHP QUANDO CLICAR NO BOTÃO
 }else{
   $_SESSION['msg'] = "<p style='color:red;'>Atenção: Cadastro do jogador não foi realizado com sucesso!</p>";
-  header("Location: login.php");
+  //header("Location: login.php");
 }
  ?>
 

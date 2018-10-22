@@ -1,3 +1,9 @@
+<?php
+  $get = isset($_GET['pagina'])? $_GET['pagina']:'';
+  require '../config.php';
+  require '../libs/functions.php';
+
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -19,14 +25,14 @@
     <div id="menu-topo">
 
       <?php
-      include("php/menu.php");
+      include("../php/menu.php");
        ?>
 
     </div>
 
     <div class="cadastro">
 
-    <form id="formCadastro" class="" action="controle/verificaCadastro.php" method="get">
+    <form id="formCadastro" class="" action="../controle/verificaCadastro.php" method="post">
 
       <div class="img-topo">
         <img src="IMG/user.png" id="imgUser">
