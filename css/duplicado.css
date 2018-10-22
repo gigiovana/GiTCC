@@ -1,4 +1,3 @@
-
 /*questões, lembretes, login, cadastro*/
 *{
   margin: 0px;
@@ -39,21 +38,10 @@ body{
   height: 30px;
 }
  #imglogo{
-  height: 400px;
-  width: 600px;
+  height: 600px;
+  width: 800px;
   margin: 0px;
-  margin-left: 400px;
-}
-
-#gifs_interprete{
-  width:"200px";
-  height:"200px";
-}
-
-.menu_pagina:hover, .menu_cadastro:hover, .menu_login:hover, .menu_descricao:hover, .menu_como:hover, .menu_sobre:hover{
-  width: 200px;
-  height: 200px;
-  margin: 150px 50px;
+  margin-left: 305px;
 }
 
 
@@ -178,7 +166,7 @@ a:active {
 
 
 /*** TELA DE INÍCIO****/
-#btnComo, #btnJogar, #btnLg, #btnSb{
+#btnComo, #btnJogar, #btnLg, #btnSb, #btnLb1{
   display: block;
   width: 200px;
   font-size: 25px;
@@ -336,7 +324,7 @@ a:active {
 
 
 
-/*** TELA LEMBRETE QUESTAO UM ***/
+/*** TELA LEMBRETE ***/
 /* #001a33  - mais escuro
 #0059b3 -  claro
 #1a1aff - médio botão
@@ -382,8 +370,7 @@ th {
   border-radius: 6px;
   padding: 8px;
   position: static;
-  margin-top: 50px;
-  width:400px;
+  width:1105px;
   margin: auto;
   margin-top: 50px;
   background:  #ccddff;
@@ -397,6 +384,7 @@ th {
   margin-bottom: 20px;
   font-size: 25px;
   width: 150px;
+
 }
 
 
@@ -449,35 +437,7 @@ margin-left: 30px;
   background-size: 100%;
   background-repeat: no-repeat;
 }
-.span, .containerAdjetivos span, .containerVerbos span{
-  color: black;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 30px;
-  float: left;
-  /* margin-right: 0px; */
-}
-/*.montante{
-  width: 810px;
-  height: 300px;
-  border: 2px solid #000000;
-  position: relative;
-  margin: 0px 10px 10px 0px ;
-  border-radius: 6px;
-  background: radial-gradient(80% 80%, #bfffbf, #fff);
-  box-shadow: 4px 5px 5px #666666;.montante{
-  width: 810px;
-  height: 300px;
-  border: 2px solid #000000;
-  position: relative;
-  margin: 0px 10px 10px 0px ;
-  border-radius: 6px;
-  background: radial-gradient(80% 80%, #bfffbf, #fff);
-  box-shadow: 4px 5px 5px #666666;
-  background-attachment: fixed;
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.montante span, .containerRelacao span, .containerFrases span{
+.montante span, .containerAdjetivos span, .containerVerbos span{
   color: black;
   font-family: "Times New Roman", Times, serif;
   font-size: 30px;
@@ -489,6 +449,201 @@ margin-left: 30px;
   border: 1px solid black;
   border-radius: 10px;
 }
+
+.containerAdjetivos, .containerVerbos{
+    width: 400px;
+    height: 500px;
+    border: 2px solid #000000;
+    position: relative;
+    margin: 0px 10px 10px 0px ;
+    border-radius: 6px;
+    background: radial-gradient(80% 80%, #bfffbf, #fff); /*degrade*/
+    box-shadow: 4px 5px 5px #666666;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+#nomeVerbos, #nomeAdjetivos{
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+
+
+/*.montante, .containerVerbos {
+    float: left;
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}*/
+.limpaarfloat{
+  clear:right;
+}
+
+
+/*.linha1 span, .linha2 span, .linha3 span{
+
+  "engorda" os elementos da classe campo
+  padding: 8px 5px;
+  width: 150px;
+  font-size: 30px;
+  background-color:#ffffff;
+  color: #000000;
+  border-radius: 3px;
+  box-shadow: 4px 4px 1px #666666;
+}*/
+
+
+/** TELA QUESTAO TRES **/
+.corpoq3 .enunciadoq3 h2{
+  border-left: 3px solid #004d00;
+  background-color: lightgrey;
+  margin: 5px 0;
+}
+
+.corpoq3{
+  margin: 0 auto;
+  width: 600px;
+  margin-right: 10px;
+  margin-left: 600px;
+}
+
+.altq3 .f1 label, .altq3 .f2 label, .altq3 .f3 label, .altq3 .f4 label{
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+  font-size: 25px;
+  text-indent: 50px;
+  color: black;
+}
+
+.altq3{
+  border: 1px solid #cccccc;
+  width: 800px;
+  height: 400px;
+}
+
+#btnQ3{
+  margin-left: 700px;
+  margin-top: 10px;
+}
+.campof1, .campof2, .campof3, .campof4{
+  width: 150px;
+  height: 33px;
+}
+
+
+.botaolb2{
+  margin-left: 1140px;
+  margin-top: 10px;
+
+}
+.campof1, .campof2, .campof3, .campof4{
+  font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+/* TELA QUESTÃO QUATRO*/
+
+  .corpoq4 .enunciadoq4 h2{
+    border-left: 3px solid #004d00;
+    background-color: lightgrey;
+    margin: 5px 0;
+  }
+
+  .corpoq4{
+    /* margin: 0 auto; */
+    margin-left: 500px;
+
+    width: 850px;
+  }
+
+  .f1, .f2, .f3{
+    height: 100px;
+  }
+
+.perguntasq4 span{
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  margin-right: 10px;
+  }
+
+  /*Somente o span que tem a classe q1a*/
+  .perguntasq4 span.q1a, .perguntasq4 span.q1b, .perguntasq4 span.q1c{
+    border: solid 1px #BABABA;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+.perguntasq4 .f1, .perguntasq4 .f2, .perguntasq4 .f3{
+  /*margin-left: 0px;*/
+}
+
+.perguntasq4 #drag8{
+    width: 260px;
+}
+
+  .limpaarfloat{
+    clear:right;
+/* Drag and Drop */
+}
+
+.perguntasq4 .r1, .perguntasq4 .r2, .perguntasq4 .r3{
+   width: 200px;
+   height: 80px;
+   float: left;
+   padding: 2px;
+   font-family: "Times New Roman", Times, serif;
+   /*font-size: 30px;*/
+   margin-left: 45px;
+   margin-bottom: 70px;
+   border: 1px solid #BABABA;;
+   border-radius: 10px;
+}
+
+#drop1 {
+  width: 50px;
+  height: 50px;
+}
+
+#btnQ4{
+  margin-left: 750px;
+}
+
+.perguntasq4{
+  border: 1px solid #bababa;
+}
+
+
+
+
+
+
+/* TELA QUESTÃO 5*/
+
+.corpoq5 .enunciadoq5 h2{
+  border-left: 3px solid #004d00;
+  background-color: lightgrey;
+  margin: 5px 0;
+}
+
+.corpoq5{
+  margin: 0 auto;
+  width: 850px;
+}
+.montante{
+  width: 810px;
+  height: 300px;
+  border: 2px solid #000000;
+  position: relative;
+  margin: 0px 10px 10px 0px ;
+  border-radius: 6px;
+  background: radial-gradient(80% 80%, #bfffbf, #fff); /*degrade*/
+  box-shadow: 4px 5px 5px #666666;
   background-attachment: fixed;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -565,19 +720,19 @@ margin: 10px 700px;
   margin: 0 auto;
   width: 850px;
 }
-/*.montante{
+.montante{
   width: 810px;
   height: 300px;
   border: 2px solid #000000;
   position: relative;
   margin: 0px 10px 10px 0px ;
   border-radius: 6px;
-  background: radial-gradient(80% 80%, #bfffbf, #fff);
+  background: radial-gradient(80% 80%, #bfffbf, #fff); /*degrade*/
   box-shadow: 4px 5px 5px #666666;
   background-attachment: fixed;
   background-size: 100%;
   background-repeat: no-repeat;
-}*/
+}
 
 
 .altq6 .frase1 label, .altq6 .frase2 label, .altq6 .frase3 label, .altq6 .frase4 label{
