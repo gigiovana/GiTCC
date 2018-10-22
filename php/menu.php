@@ -15,5 +15,5 @@
 <!-- <a href="/index.php/o-campus/como-chegar-no-campus"><span><img src="/templates/campi/images/gifs/1.1.0.0.gif" border="0" /> </span> -->
 
 <div class="" id="gifs_interprete" style="width: 200px; height: 200px; position: absolute; margin: 150px 50px;">
-  auqi vai o gif
+  <img src="" alt="">
 </div>

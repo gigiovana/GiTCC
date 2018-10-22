@@ -4,7 +4,14 @@
     <meta charset="utf-8">
     <title>Lembrete</title>
 
-        <link rel="stylesheet" type= "text/css" href="css/style.css"/>
+    <link rel="stylesheet" type= "text/css" href="css/style.css"/>
+
+
+      <script src="js/jquery-3.3.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 
         <style media="screen">
           body{
@@ -24,7 +31,8 @@
 
     <div class="conteudo">
 
-    <h1> Definição de Verbos</h1>
+    <h1>     <p><a href="#modalVerbos" rel="modal:open">Definição de Verbos</a></p></h1>
+    <!-- <p><a href="#ex1" rel="modal:open">Open Modal</a></p> -->
     <br>
     <p class="texto">Verbo é a palavra que, por si só, exprime um fato(em geral, uma ação,
       um estado ou um fenômeno, variando sua forma para situar esse fato no tempo).</p>
@@ -65,7 +73,10 @@
       <a href="q1.php" id="btnLb1" class="botao">ENTENDIDO!</a>
     </div>
 
-
+    <div id="modalVerbos" class="modal">
+    <p>Thanks for clicking. That felt good.</p>
+    <a href="#" rel="modal:close">Close</a>
+    </div>
 
 
   </body>
