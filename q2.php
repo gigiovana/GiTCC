@@ -6,6 +6,8 @@
 
         <link rel="stylesheet" type= "text/css" href="css/style.css"/>
 
+        <!-- <script src="js/jquery-3.3.1.js" charset="utf-8"></script> -->
+
     <script>
         function allowDrop(ev) {
             ev.preventDefault();
