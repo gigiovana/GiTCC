@@ -1,4 +1,3 @@
-
 /*questões, lembretes, login, cadastro*/
 *{
   margin: 0px;
@@ -39,10 +38,10 @@ body{
   height: 30px;
 }
  #imglogo{
-  height: 400px;
-  width: 600px;
+  height: 600px;
+  width: 800px;
   margin: 0px;
-  margin-left: 400px;
+  margin-left: 305px;
 }
 
 
@@ -167,7 +166,7 @@ a:active {
 
 
 /*** TELA DE INÍCIO****/
-#btnComo, #btnJogar, #btnLg, #btnSb{
+#btnComo, #btnJogar, #btnLg, #btnSb, #btnLb1{
   display: block;
   width: 200px;
   font-size: 25px;
@@ -385,6 +384,7 @@ th {
   margin-bottom: 20px;
   font-size: 25px;
   width: 150px;
+
 }
 
 
@@ -635,22 +635,14 @@ margin-left: 30px;
   margin: 0 auto;
   width: 850px;
 }
-/*.montante{
+.montante{
   width: 810px;
   height: 300px;
   border: 2px solid #000000;
   position: relative;
   margin: 0px 10px 10px 0px ;
   border-radius: 6px;
-  background: radial-gradient(80% 80%, #bfffbf, #fff);
-  box-shadow: 4px 5px 5px #666666;.montante{
-  width: 810px;
-  height: 300px;
-  border: 2px solid #000000;
-  position: relative;
-  margin: 0px 10px 10px 0px ;
-  border-radius: 6px;
-  background: radial-gradient(80% 80%, #bfffbf, #fff);
+  background: radial-gradient(80% 80%, #bfffbf, #fff); /*degrade*/
   box-shadow: 4px 5px 5px #666666;
   background-attachment: fixed;
   background-size: 100%;
@@ -668,22 +660,6 @@ margin-left: 30px;
   border: 1px solid black;
   border-radius: 10px;
 }
-  background-attachment: fixed;
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.montante span, .containerRelacao span, .containerFrases span{
-  color: black;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 30px;
-  float: left;
-  width: 170px;
-  height: 70px;
-  margin: 10px;
-  padding: 10px;
-  border: 1px solid black;
-  border-radius: 10px;
-}*/
 
 .containerRelacao, .containerFrases{
     width: 400px;
@@ -744,19 +720,19 @@ margin: 10px 700px;
   margin: 0 auto;
   width: 850px;
 }
-/*.montante{
+.montante{
   width: 810px;
   height: 300px;
   border: 2px solid #000000;
   position: relative;
   margin: 0px 10px 10px 0px ;
   border-radius: 6px;
-  background: radial-gradient(80% 80%, #bfffbf, #fff);
+  background: radial-gradient(80% 80%, #bfffbf, #fff); /*degrade*/
   box-shadow: 4px 5px 5px #666666;
   background-attachment: fixed;
   background-size: 100%;
   background-repeat: no-repeat;
-}*/
+}
 
 
 .altq6 .frase1 label, .altq6 .frase2 label, .altq6 .frase3 label, .altq6 .frase4 label{
