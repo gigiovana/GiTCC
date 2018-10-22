@@ -20,7 +20,7 @@
 
 
     <div class="video">
-      <iframe width="500" height="360" src="https://www.youtube.com/embed/eXnBVSwVNzw"
+      <iframe width="480" height="340" src="https://www.youtube.com/embed/eXnBVSwVNzw"
       frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
 
@@ -28,7 +28,7 @@
 
     <div class="enunciadoq3">
     <h2>Questão 3:</h2>
-    <p>Conjugue o verbo <span style="background-color: #ffff00">jogar:</span> <img src="IMG/jogar.png" alt=""> </p>
+    <p>Conjugue o verbo <span style="background-color: #ffff00">jogar no presente:</span> <img src="IMG/jogar.png" alt=""> </p>
     </div>
 
       <div class="altq3">
