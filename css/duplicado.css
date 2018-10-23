@@ -38,10 +38,10 @@ body{
   height: 30px;
 }
  #imglogo{
-  height: 400px;
-  width: 600px;
+  height: 600px;
+  width: 800px;
   margin: 0px;
-  margin-left: 400px;
+  margin-left: 305px;
 }
 
 
@@ -166,7 +166,7 @@ a:active {
 
 
 /*** TELA DE INÍCIO****/
-#btnComo, #btnJogar, #btnLg, #btnSb{
+#btnComo, #btnJogar, #btnLg, #btnSb, #btnLb1{
   display: block;
   width: 200px;
   font-size: 25px;
@@ -384,6 +384,7 @@ th {
   margin-bottom: 20px;
   font-size: 25px;
   width: 150px;
+
 }
 
 

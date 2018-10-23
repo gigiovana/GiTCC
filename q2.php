@@ -6,6 +6,8 @@
 
         <link rel="stylesheet" type= "text/css" href="css/style.css"/>
 
+        <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
+
     <script>
         function allowDrop(ev) {
             ev.preventDefault();
@@ -38,7 +40,7 @@
           <p>Separe as palavras de acordo com as suas classes gramaticais:</p>
         </div>
 
-        <div class="montante" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div class="montante" ondrop="drop(event)" ondragover="allowDrop(event)" style="height:500px;">
           <div class="linha1">
             <span  draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31"> Sorrir </span>
             <span  draggable="true" ondragstart="drag(event)" id="drag2" width="88" height="31"> Inteligente </span>
