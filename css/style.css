@@ -16,7 +16,7 @@ body{
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-size: 21px;
-  height: 40px;
+  height: 140px;
 
   /*Define uma largura máxima para a lista.
   Útil para fazer menu na vertical.*/
@@ -35,7 +35,7 @@ body{
 }
 #menu-topo ul a:hover{
   background-color: #999999;
-  height: 30px;
+  height: 130px;
 }
  #imglogo{
   height: 400px;

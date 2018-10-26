@@ -42,6 +42,7 @@
 
     <div class="enunciado">
     <h2>Questão 1:</h2>
+
     <p>Selecione a imagem que corresponde a um <span style="background-color: #ffff00">verbo:</span>   <img src="IMG/verbo.png" alt=""></p>
     </div>
 
@@ -84,7 +85,6 @@
       <input id="btnQ1" type="button" value="Enviar" class="botao">
     </div>
 
-  </div>
   <div class="limparfloat"></div>
 
   </body>
