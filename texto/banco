@@ -1,0 +1,41 @@
+CREATE TABLE lembrete (
+                textoLembrete text NOT NULL
+);
+
+
+CREATE TABLE resposta (
+                correta BOOLEAN NOT NULL,
+                alternativa text NOT NULL
+                );
+
+
+CREATE TABLE pergunta (
+                enunciado text NOT NULL,
+                idresposta INTEGER NOT NULL,
+                idlembrete INTEGER NOT NULL,
+        FOREIGN KEY (idresposta) REFERENCES resposta (rowi),
+        FOREIGN KEY (idlembrete) REFERENCES lembrete (rowid)
+                );
+
+
+CREATE TABLE usuario (
+                nome text NOT NULL,
+                email text NOT NULL,
+                senha text NOT NULL
+                );
+
+
+CREATE TABLE jogadas (
+                idusuario INTEGER NOT NULL,
+        FOREIGN KEY (idusuario) REFERENCES usuario (rowid)
+
+);
+
+
+CREATE TABLE pontuacao (
+                idjogada INTEGER NOT NULL,
+                idpergunta INTEGER NOT NULL,
+                respostaassinalada INTEGER NOT NULL,
+        FOREIGN KEY (idjogada) REFERENCES jogadas (rowid),
+        FOREIGN KEY (idpergunta) REFERENCES pergunta (rowid)
+                );

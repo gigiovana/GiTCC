@@ -1,4 +1,4 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script type="text/javascript">
   $(document).ready(function() {
@@ -33,7 +33,7 @@
 #gifs_interprete{
   width: 100px;
   height: 100px;
-}
+} -->
 
 </style>
 
@@ -41,10 +41,10 @@
       <ul>
         <li id="menu_pagina">
           <a href="index.php">
-            <div class="gif" id="gifs_interprete" >
+            <!-- <div class="gif" id="gifs_interprete" >
               <img src="https://www.thisiscolossal.com/wp-content/uploads/2014/03/120430.gif" style="  width: 100px
                 height: 100px"><br>
-            </div>
+            </div> -->
             <b>Página Inicial</b>
           </a>
         </li>
@@ -52,45 +52,45 @@
 
         <li id="menu_cadastro">
           <a href="cadastro.php">
-            <div class="gif" id="gifs_interprete" >
+            <!-- <div class="gif" id="gifs_interprete" >
               <img src="https://www.thisiscolossal.com/wp-content/uploads/2014/03/120430.gif"><br>
-            </div>
+            </div> -->
             <b>Cadastro</b>
           </a>
         </li>
 
         <li id="menu_login">
            <a href="login.php">
-             <div class="gif" id="gifs_interprete" >
+             <!-- <div class="gif" id="gifs_interprete" >
                <img src="https://www.thisiscolossal.com/wp-content/uploads/2014/03/120430.gif"><br>
-             </div>
+             </div> -->
             <b>Login</b>
            </a>
          </li>
 
         <li id="menu_descricao">
           <a href="descricao.php">
-            <div class="gif" id="gifs_interprete" >
+            <!-- <div class="gif" id="gifs_interprete" >
               <img src="https://www.thisiscolossal.com/wp-content/uploads/2014/03/120430.gif"><br>
-            </div>
+            </div> -->
             <b>Descrição do Jogo</b>
           </a>
          </li>
 
         <li id="menu_como">
           <a href="comoJogar.php">
-            <div class="gif" id="gifs_interprete" >
+            <!-- <div class="gif" id="gifs_interprete" >
               <img src="https://www.thisiscolossal.com/wp-content/uploads/2014/03/120430.gif"><br>
-            </div>
+            </div> -->
             <b>Como Jogar</b>
           </a>
         </li>
 
         <li id="menu_sobre">
           <a href="sobre.php">
-            <div class="gif" id="gifs_interprete" >
+            <!-- <div class="gif" id="gifs_interprete" >
               <img src="https://www.thisiscolossal.com/wp-content/uploads/2014/03/120430.gif"><br>
-            </div>
+            </div> -->
           <b>Sobre Nós</b>
           </a>
         </li>

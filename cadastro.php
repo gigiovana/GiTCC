@@ -26,7 +26,7 @@
 
     <div class="cadastro">
 
-    <form id="formCadastro" class="" action="controle/verificaCadastro.php" method="get">
+    <form id="formCadastro" class="" action="controle/verificaCadastro.php" method="POST">
 
       <div class="img-topo">
         <img src="IMG/user.png" id="imgUser">
