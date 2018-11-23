@@ -37,7 +37,7 @@
 
       <div class="altq3">
 
-        <form class="f1">
+        <form class="f1" font-size="20px">
             <label> A) João <input id="fse1" class="campof1" placeholder="sua reposta"> volei de areia. (JOGAR)</label>
         </form>
 
